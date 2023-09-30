@@ -2326,7 +2326,7 @@ footer div p{
     .navbar-toggler{
         margin-right: 30px;
     }
-    
+
 
     .hero{
         background-position-x: left;
@@ -2335,7 +2335,6 @@ footer div p{
     .hero h1{
         font-size: 42px;
         width: 90%;
-        margin-top: 150px;
     }
 
     .hero p{
@@ -2345,10 +2344,6 @@ footer div p{
 
     .hero div a{
         font-size: 20px;
-    }
-
-    .hero div{
-        margin-top: 200px;
     }
 
 

@@ -1,0 +1,2237 @@
+/*----------MEDIA QUERIES----------*/
+
+
+@media (max-width: 1369px){
+
+    .plantas .plantas-cards{
+        width: auto;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+        .card-lirio-paz{
+            width: 80% ;
+            height: auto;
+            margin-left: 60px;
+            .cards-texto{
+                width: 80%;
+                margin-bottom: 40px;
+            }
+            .cards-texto p{
+                width: auto;
+            }
+        }
+        .card-peperomia{
+            width: 80% ;
+            height: auto;
+            margin-right: 60px;
+            .cards-texto{
+                width: 80%;
+                margin-bottom: 40px;
+            }
+            .cards-texto p{
+                width: auto;
+            }
+        }
+        .card-lirio-verde{
+            width: 80% ;
+            height: auto;
+            margin-left: 60px;
+            .cards-texto{
+                width: 80%;
+                margin-bottom: 40px;
+            }
+            .cards-texto p{
+                width: auto;
+            }
+        }
+        .card-monstera{
+            width: 80% ;
+            height: auto;
+            margin-right: 60px;
+            .cards-texto{
+                width: 80%;
+                margin-bottom: 40px;
+            }
+            .cards-texto p{
+                width: auto;
+            }
+        }
+        .card-higuera{
+            width: 80% ;
+            height: auto;
+            margin-left: 60px;
+            .cards-texto{
+                width: 80%;
+                margin-bottom: 40px;
+            }
+            .cards-texto p{
+                width: auto;
+            }
+        }
+        .card-orquidea{
+            width: 80% ;
+            height: auto;
+            margin-right: 60px;
+            .cards-texto{
+                width: 80%;
+                margin-bottom: 40px;
+            }
+            .cards-texto p{
+                width: auto;
+            }
+        }
+        .card-sansivieria{
+            width: 80% ;
+            height: auto;
+            margin-left: 60px;
+            .cards-texto{
+                width: 80%;
+                margin-bottom: 40px;
+            }
+            .cards-texto p{
+                width: auto;
+            }
+        }
+        .card-suculenta{
+            width: 80% ;
+            height: auto;
+            margin-right: 60px;
+            .cards-texto{
+                width: 80%;
+                margin-bottom: 40px;
+            }
+            .cards-texto p{
+                width: auto;
+            }
+        }
+    }
+
+
+    .cuidados{
+        .riego{
+            height: auto;
+            margin-left: 20px;
+            border-bottom-left-radius: 270px;
+            border-top-left-radius: 270px;
+            .imagen-riego{
+                width: 614px;
+                height: 560px;
+                display: none;
+            }
+            .imagen-riego-angosta{
+                display: flex;
+            }
+        }
+        .luz{
+            height: auto;
+            margin-right: 20px;
+            border-bottom-right-radius: 270px;
+            border-top-right-radius: 270px;
+            .imagen-luz{
+                width: 614px;
+                height: 560px;
+                display: none;
+            }
+            .imagen-luz-angosta{
+                display: flex;
+            }
+        }
+        .temperatura{
+            height: auto;
+            margin-left: 20px;
+            border-bottom-left-radius: 270px;
+            border-top-left-radius: 270px;
+            .imagen-temperatura{
+                width: 614px;
+                height: 560px;
+                display: none;
+            }
+            .imagen-temperatura-angosta{
+                display: flex;
+            }
+        }
+    }
+
+    .seccion-contacto .contacto{
+        .contenedor-imagen-contacto .imagen-contacto{
+            width: 585px;
+            height: 615px;
+        }
+    }    
+    
+
+    .seccion-contacto .contacto .h2yformulario{
+        h2{
+            margin-left: 250px;
+        }
+        .formulario{
+            padding-left: 150px;
+            } 
+    }
+}
+
+
+
+
+@media (max-width: 1201px){
+    .logo{
+        width: 200px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+    .reconectemos .contenido-reconectemos .imagen-reconectemos .imagen-monstera-peperomia{
+        width: 509px;
+        height: 528px;
+        margin-right: 50px;
+    }
+
+    .cuidado .contenido-cuidado .imagen-cuidado{
+        width: 509px;
+        height: 528px;
+    }
+
+
+    .plantas .plantas-cards{
+        .card-lirio-paz{
+            .contenedor-imagen{
+                width: 332px;
+                height: 350px;
+                .foto-lirio-paz{
+                    width: 70%;
+                    height: auto;
+                }
+            }
+            .cards-texto h2{
+                padding-top: 20px;
+            }
+        }
+        
+        .card-peperomia{
+            .contenedor-imagen{
+                width: 332px;
+                height: 350px;
+                .foto-peperomia{
+                    width: 70%;
+                    height: auto;
+                }
+            }
+            .cards-texto h2{
+                padding-top: 20px;
+            }
+        }
+        
+        .card-lirio-verde{
+            .contenedor-imagen{
+                width: 332px;
+                height: 350px;
+                .foto-lirio-verde{
+                    width: 78%;
+                    height: auto;
+                }
+            }
+            .cards-texto h2{
+                padding-top: 20px;
+            }
+        }
+        
+        .card-monstera{
+            .contenedor-imagen{
+                width: 332px;
+                height: 350px;
+                .foto-monstera{
+                    width: 75%;
+                    height: auto;
+                }
+            }
+            .cards-texto h2{
+                padding-top: 20px;
+            }
+        }
+        
+        .card-higuera{
+            .contenedor-imagen{
+                width: 332px;
+                height: 350px;
+                .foto-higuera{
+                    width: 70%;
+                    height: auto;
+                }
+            }
+            .cards-texto h2{
+                padding-top: 20px;
+            }
+        }
+        
+        .card-orquidea{
+            .contenedor-imagen{
+                width: 332px;
+                height: 350px;
+                .foto-orquidea{
+                    width: 70%;
+                    height: auto;
+                }
+            }
+            .cards-texto h2{
+                padding-top: 20px;
+            }
+        }
+        
+        .card-sansivieria{
+            .contenedor-imagen{
+                width: 332px;
+                height: 350px;
+                .foto-sansivieria{
+                    width: 70%;
+                    height: auto;
+                }        
+            }
+            .cards-texto h2{
+                padding-top: 20px;
+            }
+        }
+        
+        .card-suculenta{
+            .contenedor-imagen{
+                width: 332px;
+                height: 350px;
+                .foto-suculenta{
+                    width: 70%;
+                    height: auto;
+                }
+            }
+            .cards-texto h2{
+                padding-top: 20px;
+            }
+        }
+        
+    }
+    
+    .seccion-contacto .contacto{
+        .h2yformulario{
+            h2{
+                margin-left: 155px;
+            }
+            .formulario{
+                padding-left: 80px;
+            }
+        }
+        .contenedor-imagen-contacto .imagen-contacto{
+            width: 485px;
+            height: 515px;
+        }
+    }
+}
+
+
+@media (max-width: 1096px){
+    .hero{
+        h1{
+            font-size: 56px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    
+
+    .reconectemos{
+        height: auto;
+        h2{
+            font-size: 40px;
+        }
+        .contenido-reconectemos{
+            margin-bottom: 80px;
+            .texto-reconectemos{
+                h3{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+
+
+    .titulo-plantas-inicio{
+        font-size: 40px;
+    }
+
+    .parrafo-plantas-inicio{
+        font-size: 18px;
+    }
+
+
+
+
+    .cuidado{
+        height: auto;
+        h2{
+            font-size: 40px;
+        }
+        .contenido-cuidado{
+            margin-bottom: 80px;
+            .texto-cuidado{
+                h3{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+
+
+
+    .plantas{
+        h1{
+            font-size: 40px;
+        }
+        .plantas-cards{
+            .card-lirio-paz{
+                .cards-texto{
+                    h2{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+            .card-peperomia{
+                .cards-texto{
+                    h2{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                } 
+                
+            }
+            .card-lirio-verde{
+                .cards-texto{
+                    h2{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+            .card-monstera{
+                .cards-texto{
+                    h2{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+            .card-higuera{
+                .cards-texto{
+                    h2{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+            
+            .card-orquidea{
+                .cards-texto{
+                    h2{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+            
+            .card-sansivieria{
+                .cards-texto{
+                    h2{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+            
+            .card-suculenta{
+                .cards-texto{
+                    h2{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+        }
+        .visita{
+            margin-top: 60px;
+        }
+    }
+    
+
+
+
+
+    footer{
+        .contactanos{
+            h3{
+                font-size: 20px;
+            }
+            .telefono{
+                width: 120px;
+                p{
+                    font-size: 16px;
+                }
+            }
+            .whatsapp{
+                width: 140px;
+                p{
+                    font-size: 16px;
+                }
+            }
+            .correo{
+                width: 230px;
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+        .local{
+            h3{
+                font-size: 20px;
+            }
+            .ubicacion{
+                width: 295px;
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+        .seguinos{
+            h3{
+                font-size: 20px;
+            }
+        }
+    }
+
+
+
+    .whatsapp-flotante{
+        right: 20px;
+        bottom: 20px;
+    }
+
+
+
+
+
+    .cuidados{
+        width: 100%;
+        height: auto;
+        h1{
+            font-size: 40px;
+        }
+        .riego .riego-texto{
+            .iconoyriego{
+                width: 150px;
+                h2{
+                    font-size: 28px;
+                }
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .luz .luz-texto{
+            .iconoyluz{
+                width: 200px;
+                h2{
+                    font-size: 28px;        
+                }
+            }
+            p{
+                font-size: 18px;
+            }
+        } 
+        .temperatura .temperatura-texto{
+            .iconoytemperatura{
+                h2{
+                    font-size: 28px;        
+                }
+            }
+            p{
+                font-size: 18px;
+            }
+        } 
+    }
+
+
+
+
+
+    .seccion-nosotros{
+        .nosotros{
+            .nosotros-h1{
+                font-size: 40px;
+            }
+            .historia{
+                h2{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+            .mision{
+                h2{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+            .vision{
+                h2{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+            .valores{
+                h2{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    
+
+    .seccion-contacto{
+        .contacto{
+            .contacto-h1{
+                font-size: 40px;
+            }
+            .h2yformulario{
+                h2{
+                    font-size: 20px;
+                    margin-left: 200px;
+                }
+                .formulario{
+                    padding-left: 100px;
+                    .nombre{
+                        label{
+                            font-size: 16px;
+                        }
+                    }
+                    .correo-formulario{
+                        label{
+                            font-size: 16px;
+                        }
+                    }
+                    .telefono-formulario{
+                        label{
+                            font-size: 16px;
+                        }
+                    }
+                    .mensaje{
+                        label{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            
+            }
+        }
+    }   
+}
+
+
+
+
+@media (max-width: 1025px){
+    .seccion-contacto .contacto .contenedor-imagen-contacto .imagen-contacto{
+        width: 445px;
+        height: 475px;
+    }
+}
+
+
+
+@media (max-width: 963px){
+
+    .reconectemos .contenido-reconectemos .imagen-reconectemos .imagen-monstera-peperomia{
+        width: 409px;
+        height: 428px;
+    }
+
+    .cuidado .contenido-cuidado .imagen-cuidado{
+        width: 409px;
+        height: 428px;
+    }
+
+    
+
+
+    .plantas .plantas-cards{
+        row-gap: 3%;
+        margin-bottom: 250px;
+        .card-lirio-paz{
+            .contenedor-imagen{
+                width: 232px;
+                height: 250px;
+                .foto-lirio-paz{
+                    width: 75%;
+                    height: auto;
+                }
+            }
+            .cards-texto{
+                h2{
+                    padding-top: 10px;
+                }
+            }
+        }
+        .card-peperomia{
+            .contenedor-imagen{
+                width: 232px;
+                height: 250px;
+                .foto-peperomia{
+                    width: 75%;
+                    height: auto;
+                }
+            }
+            .cards-texto{
+                h2{
+                    padding-top: 10px;
+                }
+            }
+        }
+        .card-lirio-verde{
+            .contenedor-imagen{
+                width: 232px;
+                height: 250px;
+                .foto-lirio-verde{
+                    width: 83%;
+                    height: auto;
+                }
+            }
+            .cards-texto{
+                h2{
+                    padding-top: 10px;
+                }
+            }
+        }
+        .card-monstera{
+            .contenedor-imagen{
+                width: 232px;
+                height: 250px;
+                .foto-monstera{
+                    width: 80%;
+                    height: auto;
+                }
+            }
+            .cards-texto{
+                h2{
+                    padding-top: 10px;
+                }
+            }
+        }
+        .card-higuera{
+            .contenedor-imagen{
+                width: 232px;
+                height: 250px;
+                .foto-higuera{
+                    width: 75%;
+                    height: auto;
+                }
+            }
+            .cards-texto{
+                h2{
+                    padding-top: 10px;
+                }
+            }
+        }
+        .card-orquidea{
+            .contenedor-imagen{
+                width: 232px;
+                height: 250px;
+                .foto-orquidea{
+                    width: 75%;
+                    height: auto;
+                }
+            }
+            .cards-texto{
+                h2{
+                    padding-top: 10px;
+                }
+            }
+        }
+        .card-sansivieria{
+            .contenedor-imagen{
+                width: 232px;
+                height: 250px;
+                .foto-sansivieria{
+                    width: 75%;
+                    height: auto;
+                }
+            }
+            .cards-texto{
+                h2{
+                    padding-top: 10px;
+                }
+            }
+        }
+        .card-suculenta{
+            .contenedor-imagen{
+                width: 232px;
+                height: 250px;
+                .foto-suculenta{
+                    width: 75%;
+                    height: auto;
+                }
+            }
+            .cards-texto{
+                h2{
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+    .cuidados{
+        .riego{
+            flex-direction: column;
+            text-align: center;
+            margin-left: 0px;
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 200px;
+            border-top-right-radius: 200px;
+            .riego-texto{
+                width: 80%;
+                margin: 38px 0px 30px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .imagen-riego{
+                display: flex;
+                width: 476px;
+                height: 425px;
+                margin-bottom: 38px;
+            }
+            .imagen-riego-angosta{
+                display: none;
+            }
+        }
+        .luz{
+            flex-direction: column-reverse;
+            text-align: center;
+            margin-right: 0px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-top-left-radius: 200px;
+            border-top-right-radius: 200px;
+            .imagen-luz-angosta{
+                display: none;
+            }
+            .imagen-luz{
+                display: flex;
+                width: 476px;
+                height: 425px;
+                margin-bottom: 38px;
+            }
+            .luz-texto{
+                width: 80%;
+                margin: 38px 0px 30px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .temperatura{
+            flex-direction: column;
+            text-align: center;
+            margin-left: 0px;
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 200px;
+            border-top-right-radius: 200px;
+            .temperatura-texto{
+                width: 80%;
+                margin: 38px 0px 30px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .iconoytemperatura{
+                    margin-right: 50px;
+                }
+            }
+            .imagen-temperatura-angosta{
+                display: none;
+            }
+            .imagen-temperatura{
+                display: flex;
+                width: 476px;
+                height: 425px;
+                margin-bottom: 38px;
+            }
+        }
+    }
+
+
+
+
+
+    .seccion-nosotros{
+        .nosotros{
+            width: 80%;
+            grid-template-rows: 10% 20% 20% 15% 15% 20%;
+            grid-template-columns: 100%;
+            grid-template-areas:
+            "nosotros-h1"
+            "historia"
+            "mision"
+            "vision"
+            "valores" 
+            "imagen-nosotros";
+            .historia{
+                width: 100%;
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+            }
+            .mision{
+                width: 100%;
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+            }
+            .vision{
+                width: 100%;
+                margin-bottom: 0px;
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+            }
+            .valores{
+                width: 100%;
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+            }
+            .imagen-nosotros{
+                display: flex;
+                justify-content: center;
+                margin-top: 40px;
+                margin-bottom: 80px;
+                .imagen-nosotros-desktop{
+                    width: 307px;
+                    height: 385px;
+                }
+            }
+        }
+    }
+
+
+
+
+    .seccion-contacto{
+        .contacto{
+            grid-template-rows: 10% 40% 25% 25%;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            "contacto-h1"
+            "h2yformulario"
+            "contenedor-imagen-contacto"
+            "mapa";
+            .h2yformulario{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-top: 0px;
+                h2{
+                    margin-left: 15px;
+                }
+                .formulario{
+                    padding: 0px;
+                    width: 50%;
+                }
+            }
+            .contenedor-imagen-contacto{
+                justify-content: center;
+                margin-top: 50px;
+                .imagen-contacto{
+                    display: none;
+                }
+                .imagen-contacto-mobile{
+                    display: flex;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 870px){
+    .reconectemos .contenido-reconectemos .imagen-reconectemos .imagen-monstera-peperomia{
+        width: 309px;
+        height: 328px;
+    }
+
+    .cuidado .contenido-cuidado .imagen-cuidado{
+        width: 309px;
+        height: 328px;
+    }
+
+    .plantas .plantas-cards{
+        margin-bottom: 250px;
+    }
+
+
+
+    .seccion-nosotros{
+        .nosotros{
+            .historia{
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+            }
+            .mision{
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+            }
+            .vision{
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 100px;
+                }
+            }
+            .valores{
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 100px;
+                }
+            }
+            .imagen-nosotros{
+                justify-content: center;
+                .imagen-nosotros-desktop{
+                    margin-top: 100px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+
+
+    .seccion-contacto{
+        .contacto{
+            .h2yformulario{
+                margin-top: 80px;
+                h2{
+                    text-align: center;
+                    margin-left: 0px;
+                }
+                .formulario{
+                    width: 50%;
+                    margin-bottom: 100px;
+                    padding-left: 0px;
+                }
+            }
+            .contenedor-imagen-contacto{
+                justify-content: center;
+                margin-top: 0px;
+                .imagen-contacto-mobile{
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+
+    footer{
+        grid-template-rows: 50% 25% 25%;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "contactanos"
+        "local"
+        "seguinos";
+        justify-items: start;
+        .contactanos{
+            margin-top: 60px;
+            margin-left: 60px;
+            margin-bottom: 60px;
+            h3{
+                padding-top: 0px;
+            }
+        }
+        .local{
+            margin-top: 10px;
+            margin-left: 60px;
+            h3{
+                padding-top: 0px;
+            }
+        }
+        .seguinos{
+            margin-top: 10px;
+            margin-bottom: 70px;
+            margin-left: 60px;
+            h3{
+                padding-top: 0px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 830px){
+
+    .plantas .plantas-cards{
+        row-gap: 1%;
+    }
+}
+
+
+@media (max-width: 785px){
+
+    .reconectemos{
+        h2{   
+            padding-bottom: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .contenido-reconectemos{
+            flex-direction: column;
+            margin-top: 0px;
+            .imagen-reconectemos{
+                .imagen-monstera-peperomia{
+                    display: none;
+                }
+                .imagen-monstera-peperomia-mobile{
+                    display: flex;
+                }
+            }
+            .texto-reconectemos{
+                width: 90%;
+                margin-right: 0px;
+                align-items: center;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+
+
+
+    .cuidado{
+        
+        h2{   
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 50px;
+        }
+        .contenido-cuidado{
+            flex-direction: column;
+            .imagen-cuidado{
+                display: none;
+            }
+            .imagen-cuidado-mobile{
+                display: flex;
+                margin-bottom: 50px;
+            }
+            .texto-cuidado{
+                width: 90%;
+                margin-right: 0px;
+                align-items: center;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    
+
+
+
+    .plantas{
+        .plantas-cards{
+            row-gap: 2%;
+            .card-lirio-paz{
+                margin-left: 30px;
+            }
+            .card-peperomia{
+                margin-right: 30px;
+            }
+            .card-lirio-verde{
+                margin-left: 30px;
+            }
+            .card-monstera{
+                margin-right: 30px;
+            }
+            .card-higuera{
+                margin-left: 30px;
+            }
+            .card-orquidea{
+                margin-right: 30px;
+            }
+            .card-sansivieria{
+                margin-left: 30px;
+            }
+            .card-suculenta{
+                margin-right: 30px;
+            }
+        }
+        .visita{
+            .contenido-visita{
+                width: 660px;
+                h3{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+
+
+    .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop{
+            width: 307px;
+            height: 385px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+
+
+
+    .seccion-contacto .contacto .h2yformulario{
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+    footer{
+        .contactanos{
+            h3{
+                font-size: 20px;
+            }
+            .telefono{
+                width: 100px;
+                img{
+                    height: 22px;
+                    width: 22px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            .whatsapp{
+                width: 120px;
+                img{
+                    height: 22px;
+                    width: 22px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            .correo{
+                width: 200px;
+                img{
+                    height: 18px;
+                    width: 22px;
+                    margin-top: 2px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        .local{
+            margin-top: 0px;
+            h3{
+                font-size: 20px;
+            }
+            .ubicacion{
+                width: 260px;
+                img{
+                    height: 22px;
+                    width: 18px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        .seguinos{
+            margin-top: 0px;
+            h3{
+                font-size: 20px;
+            }
+            .redes{
+                margin-bottom: 60px;
+                a{
+                    height: 48px;
+                    width: 48px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 721px){
+
+    .foto-carousel{
+        width: 522px;
+        height: 345px;
+    }
+
+
+
+
+    .plantas{
+        .plantas-cards{
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(8, 12.5%);
+            grid-template-areas:
+                "lirio-paz"
+                "peperomia"
+                "lirio-verde"
+                "monstera"
+                "higuera"
+                "orquidea"
+                "sansivieria"
+                "suculenta";
+            row-gap: 1.5%;
+            margin-bottom: 600px;
+            .card-lirio-paz{
+                height: auto;
+                border-top-left-radius: 270px;
+                border-top-right-radius: 270px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 432px;
+                    height: 450px;
+                    .foto-lirio-paz{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+            }
+            .card-peperomia{
+                height: auto;
+                border-top-left-radius: 270px;
+                border-top-right-radius: 270px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 432px;
+                    height: 450px;
+                    .foto-peperomia{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+            }
+            .card-lirio-verde{
+                height: auto;
+                border-top-left-radius: 270px;
+                border-top-right-radius: 270px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 432px;
+                    height: 450px;
+                    .foto-lirio-verde{
+                        width: 78%;
+                        height: auto;
+                    }
+                }
+            }
+            .card-monstera{
+                height: auto;
+                border-top-left-radius: 270px;
+                border-top-right-radius: 270px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 432px;
+                    height: 450px;
+                    .foto-monstera{
+                        width: 75%;
+                        height: auto;
+                    }
+                }
+            }
+            .card-higuera{
+                height: auto;
+                border-top-left-radius: 270px;
+                border-top-right-radius: 270px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 432px;
+                    height: 450px;
+                    .foto-higuera{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+            }
+            .card-orquidea{
+                height: auto;
+                border-top-left-radius: 270px;
+                border-top-right-radius: 270px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 432px;
+                    height: 450px;
+                    .foto-orquidea{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+            }
+            .card-sansivieria{
+                height: auto;
+                border-top-left-radius: 270px;
+                border-top-right-radius: 270px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 432px;
+                    height: 450px;
+                    .foto-sansivieria{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+            }
+            .card-suculenta{
+                height: auto;
+                border-top-left-radius: 270px;
+                border-top-right-radius: 270px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 432px;
+                    height: 450px;
+                    .foto-suculenta{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 576px){
+
+    .foto-carousel{
+        width: 422px;
+        height: 245px;
+    }
+
+    .seccion-nosotros .imagen-nosotros .imagen-nosotros-desktop{
+        margin-bottom: 0px;
+    }
+}
+
+
+
+/*----------MOBILE----------*/
+
+@media (max-width: 480px){
+    header{
+        height: auto;
+        display: block;
+        position: sticky;
+    }
+
+    .logo{
+        width: 150px;
+        margin-left: 30px;
+    }
+
+
+
+
+    .hero{
+        background-position-x: left;
+        h1{
+            font-size: 42px;
+            width: 90%;
+        }
+        p{
+            font-size: 14px;
+            width: 90%;
+        }
+        .boton-ver-plantas{
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+
+
+
+
+
+    .reconectemos{
+        height: auto;
+        background-image: none;
+        h2{   
+            font-size: 28px;
+            padding-bottom: 30px;
+        }
+        .contenido-reconectemos{
+            flex-direction: column;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            .imagen-reconectemos{
+                .imagen-monstera-peperomia{
+                    display: none;
+                }
+                .imagen-monstera-peperomia-mobile{
+                    display: flex;
+                }
+            }
+            .texto-reconectemos{
+                text-align: center;
+                align-items: center;
+                width: 90%;
+                margin-right: 0px;
+                margin-bottom: 30px;
+                h3{
+                    font-size: 20px;
+                    text-align: center;
+                    padding-top: 80px;
+                }
+                p{
+                    font-size: 14px;
+                    width: 90%;
+                    text-align: center;
+                }
+                .boton-contenedor{
+                    margin-bottom: 50px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+
+
+
+    .plantas-inicio{
+        background-position-x: 0;
+    }
+
+    .titulo-plantas-inicio{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .parrafo-plantas-inicio{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+    }
+
+
+
+
+
+    .cuidado{
+        height: auto;
+        background-image: none;
+        h2{   
+            font-size: 28px;
+            text-align: center;
+        }
+        .contenido-cuidado{
+            flex-direction: column;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            .texto-cuidado{
+                text-align: center;
+                align-items: center;
+                width: 90%;
+                margin-right: 0px;
+                margin-bottom: 30px;
+                h3{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 14px;
+                    text-align: center;
+                    width: 90%;
+                }
+                .boton-contenedor{
+                    margin-bottom: 50px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+
+
+
+    .plantas{
+        height: auto;
+        h1{
+            font-size: 28px;
+            padding-bottom: 80px;
+        }
+        .plantas-cards{
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(8, 12.5%);
+            grid-template-areas:
+                "lirio-paz"
+                "peperomia"
+                "lirio-verde"
+                "monstera"
+                "higuera"
+                "orquidea"
+                "sansivieria"
+                "suculenta";
+            row-gap: 1.5%;
+            margin-bottom: 450px;
+            .card-lirio-paz{
+                height: auto;
+                border-top-left-radius: 200px;
+                border-top-right-radius: 200px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 232px;
+                    height: 250px;
+                    .foto-lirio-paz{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+                .cards-texto{
+                    width: 80%;
+                    margin-bottom: 40px;
+                    h2{
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                }
+            }
+            .card-peperomia{
+                height: auto;
+                border-top-left-radius: 200px;
+                border-top-right-radius: 200px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 232px;
+                    height: 250px;
+                    .foto-peperomia{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+                .cards-texto{
+                    width: 80%;
+                    margin-bottom: 40px;
+                    h2{
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                }
+            }
+            .card-lirio-verde{
+                height: auto;
+                border-top-left-radius: 200px;
+                border-top-right-radius: 200px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 232px;
+                    height: 250px;
+                    .foto-lirio-verde{
+                        width: 78%;
+                        height: auto;
+                    }
+                }
+                .cards-texto{
+                    width: 80%;
+                    margin-bottom: 40px;
+                    h2{
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                }
+            }
+            .card-monstera{
+                height: auto;
+                border-top-left-radius: 200px;
+                border-top-right-radius: 200px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 232px;
+                    height: 250px;
+                    .foto-monstera{
+                        width: 75%;
+                        height: auto;
+                    }
+                }
+                .cards-texto{
+                    width: 80%;
+                    margin-bottom: 40px;
+                    h2{
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                }
+            }
+            .card-higuera{
+                height: auto;
+                border-top-left-radius: 200px;
+                border-top-right-radius: 200px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 232px;
+                    height: 250px;
+                    .foto-higuera{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+                .cards-texto{
+                    width: 80%;
+                    margin-bottom: 40px;
+                    h2{
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                }
+            }
+            .card-orquidea{
+                height: auto;
+                border-top-left-radius: 200px;
+                border-top-right-radius: 200px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 232px;
+                    height: 250px;
+                    .foto-orquidea{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+                .cards-texto{
+                    width: 80%;
+                    margin-bottom: 40px;
+                    h2{
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                }
+            }
+            .card-sansivieria{
+                height: auto;
+                border-top-left-radius: 200px;
+                border-top-right-radius: 200px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 232px;
+                    height: 250px;
+                    .foto-sansivieria{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+                .cards-texto{
+                    width: 80%;
+                    margin-bottom: 40px;
+                    h2{
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                }
+            }
+            .card-suculenta{
+                height: auto;
+                border-top-left-radius: 200px;
+                border-top-right-radius: 200px;
+                margin: 0px;
+                .contenedor-imagen{
+                    width: 232px;
+                    height: 250px;
+                    .foto-suculenta{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+                .cards-texto{
+                    width: 80%;
+                    margin-bottom: 40px;
+                    h2{
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .visita{
+            .contenido-visita{
+                width: 80%;
+                h3{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+    .cuidados{
+        height: auto;
+        h1{
+            font-size: 28px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .riego{
+            border-top-right-radius: 210px;
+            border-top-left-radius: 210px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            .riego-texto{
+                width: 80%;
+                margin-top: 30px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 30px;
+                .iconoyriego{
+                    width: 105px;
+                    height: 70px;
+                    flex-direction: column;
+                    h2{
+                        font-size: 20px;
+                        margin-bottom: 0px;
+                    }
+                    img{
+                        height: 33px;
+                        width: 33px;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+            }
+            .imagen-riego{
+                width: 100%;
+                height: auto;
+                margin-bottom: 0px;
+            }
+        }
+        .luz{
+            border-top-left-radius: 210px;
+            border-top-right-radius: 210px;
+            margin-top: 70px;
+            margin-bottom: 100px;
+            .imagen-luz{
+                width: 100%;
+                height: auto;
+                margin-bottom: 0px;
+            }
+            .luz-texto{
+                width: 80%;
+                margin-top: 30px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 30px;
+                .iconoyluz{
+                    width: 140px;
+                    height: 70px;
+                    flex-direction: column;
+                    h2{
+                        font-size: 20px;
+                        margin-bottom: 0px;
+                    }
+                    img{
+                        height: 33px;
+                        width: 33px;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        .temperatura{
+            border-top-right-radius: 210px;
+            border-top-left-radius: 210px;
+            margin-top: 70px;
+            margin-bottom: 100px;
+            .temperatura-texto{
+                width: 80%;
+                margin-top: 30px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 30px;
+                .iconoytemperatura{
+                    width: 160px;
+                    height: 70px;
+                    flex-direction: column;
+                    margin-right: 0px;
+                    h2{
+                        font-size: 20px;
+                        margin-bottom: 0px;
+                    }
+                    img{
+                        height: 35px;
+                        width: 36px;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+            }
+            .imagen-temperatura{
+                width: 100%;
+                height: auto;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+
+
+
+
+    .seccion-nosotros{
+        .nosotros{
+            .nosotros-h1{   
+                font-size: 28px;
+                margin-top: 0px;
+            }
+            .historia{
+                margin-top: 0px;
+                h2{
+                    font-size: 20px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+            .mision{
+                margin-top: 10px;
+                h2{
+                    font-size: 20px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+            .vision{
+                margin-top: 50px;
+                margin-bottom: 50px;
+                h2{
+                    font-size: 20px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+            .valores{
+                margin-top: 50px;
+                h2{
+                    font-size: 20px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+            .imagen-nosotros{
+                margin-bottom: 50px;
+                .imagen-nosotros-desktop{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+
+
+
+
+    .seccion-contacto{
+        .contacto{
+            height: auto;
+            grid-template-rows: 10% 40% 26% 24%;
+            .contacto-h1{
+                font-size: 28px;
+            }
+            .h2yformulario{
+                h2{
+                    font-size: 18px;
+                    text-align: center;
+                    margin-left: 0px;
+                    margin-bottom: 20px;
+                }
+                .formulario{
+                    width: 80%;
+                    padding-left: 0px;
+                }
+            }
+            .contenedor-imagen-contacto{
+                .imagen-contacto{
+                    display: none;
+                }
+                .imagen-contacto-mobile{
+                    display: flex;
+                    margin-top: 0px;
+                    width: 90%;
+                }
+            }
+        }
+    }
+    
+
+
+
+
+
+    footer{
+        .contactanos{
+            margin-left: 30px;
+            h3{
+                font-size: 20px;
+            }
+            .telefono{
+                width: 100px;
+                p{
+                    font-size: 14px;
+                }
+            }
+            .whatsapp{
+                width: 120px;
+                p{
+                    font-size: 14px;
+                }
+            }
+            .correo{
+                width: 200px;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        .local{
+            margin-left: 30px;
+            h3{
+                font-size: 20px;
+            }
+            .ubicacion{
+                width: 260px;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        .seguinos{
+            margin-left: 30px;
+            h3{
+                font-size: 20px;
+            }
+            .redes{
+                margin-bottom: 60px;
+                a{
+                    height: 48px;
+                    width: 48px;
+                }
+            }
+        }
+    }
+
+
+
+    .whatsapp-flotante{
+        right: 20px;
+        bottom: 20px;
+        img{
+            width: 68px;
+            height: 68px;
+        }
+    }
+}
+
+
+@media (max-width: 450px){
+
+    .foto-carousel{
+        width: 317px;
+        height: 190px;
+    }
+
+    .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop{
+        margin-top: 0px;
+    }
+}
+
+
+@media (max-width: 395px){
+    
+    .seccion-nosotros{
+        .nosotros{
+            .historia{
+                margin-top: 0px;
+                p{
+                    margin-bottom: 100px;
+                }
+            }
+            .mision{
+                margin-top: 30px;
+                p{
+                    margin-bottom: 50px;
+                }
+            }
+            .vision{
+                margin-top: 50px;
+                p{
+                    margin-bottom: 0px;
+                }
+            }
+            .valores{
+                margin-top: 0px;
+                margin-bottom: 0px;
+                p{
+                    margin-bottom: 50px;
+                }
+            }
+            .imagen-nosotros{
+                width: 90%;
+                .imagen-nosotros-desktop{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

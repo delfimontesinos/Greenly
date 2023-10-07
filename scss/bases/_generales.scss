@@ -1,0 +1,84 @@
+/*----------FONT----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+/*----------RESET----------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*--Whatsapp flotante--*/
+
+.whatsapp-flotante{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+/*--BOOTSTRAP--*/
+
+/*--Plantas de interior - index--*/
+
+.plantas-inicio{
+    max-width: 100%;
+}
+
+.bg-imagen-fondo{    
+    background-image: url(../img/imagen-fondo-verde.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo-plantas-inicio{
+    color: #ECFCF0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.parrafo-plantas-inicio{
+    color: #ECFCF0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.boton-ver-todas{
+    width: 200px;
+    height: 52px;
+    background-color: #FFDA57;
+    border-radius: 12px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-ver-todas:hover{
+    background-color: #FFE792;
+}
+
+.boton-ver-todas:active{
+    background-color: #FFDA57;
+}
+
+.boton-ver-todas a{
+    color: #4B6728;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.foto-carousel{
+    width: 622px;
+    height: 445px;
+}

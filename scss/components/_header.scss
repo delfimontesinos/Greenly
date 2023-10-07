@@ -1,0 +1,28 @@
+/*----------HEADER----------*/
+header{  
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+header nav{
+    background-color: #384D1F;
+}
+
+.enlaces-nav{
+    color: #ECFCF0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.logo{
+    width: 200px;
+    margin: 18px 0px 18px 20px;
+}
+
+.icono-menu{
+    color: #ECFCF0;
+    font-size: 40px;
+}

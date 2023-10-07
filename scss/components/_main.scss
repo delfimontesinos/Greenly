@@ -1,0 +1,1075 @@
+/*------INDEX------*/
+/*--Hero--*/
+
+.hero{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background-image: url(../img/hero-image-sillon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: #ECFCF0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 75px;
+        font-weight: 600;
+        width: 90%;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        margin-bottom: 0px;
+    }
+    p{
+        color: #ECFCF0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        width: 60%;
+        padding-bottom: 60px;
+        margin-bottom: 0px;
+    }
+    .boton-ver-plantas{
+        width: 200px;
+        height: 52px;
+        background-color: #FFDA57;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            background-color: #FFE792;
+        }
+        &:active{
+            background-color: #FFDA57;
+        }
+        a{
+            color: #4B6728;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+}
+
+/*--Reconectemos--*/
+
+.reconectemos{
+    width: 100%;
+    height: 984px;
+    h2{   
+        color: #4B6728;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .contenido-reconectemos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        .imagen-reconectemos{
+            .imagen-monstera-peperomia{
+                margin-right: 50px;
+            }
+            .imagen-monstera-peperomia-mobile{
+                display: none;
+            }
+        }
+        .texto-reconectemos{
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            justify-content: space-around;
+            align-items: start;
+            margin-right: 100px;
+            h3{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 32px;
+                font-weight: 600;
+                padding-top:15px;
+                padding-bottom: 15px;
+            }
+            p{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                padding-top:15px;
+                padding-bottom: 15px;
+            }
+            .boton-contenedor{
+                width: 200px;
+                height: 52px;
+                border: 2px solid #4B6728;
+                border-radius: 12px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover{
+                    background-color: #F0F7E7;
+                }
+                &:active{
+                    background-color: #4B6728;
+                }
+                a{
+                    color: #4B6728;
+                    text-decoration: none;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    &:active{
+                        color: #ECFCF0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*--Cuidado de las plantas - index--*/
+
+.cuidado{
+    width: 100%;
+    height: 984px;
+    h2{   
+        color: #4B6728;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .contenido-cuidado{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        .imagen-cuidado{
+            margin-right: 50px;
+        }
+        .imagen-cuidado-mobile{
+            display: none;
+        }
+        .texto-cuidado{
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            justify-content: space-around;
+            align-items: start;
+            margin-right: 100px;
+            h3{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 32px;
+                font-weight: 600;
+                padding-top:15px;
+                padding-bottom: 15px;
+            }
+            p{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                padding-top:15px;
+                padding-bottom: 15px;
+            }
+            .boton-contenedor{
+                width: 200px;
+                height: 52px;
+                border: 2px solid #4B6728;
+                border-radius: 12px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover{
+                    background-color: #F0F7E7;
+                }
+                &:active{
+                    background-color: #4B6728;
+                }
+                a{
+                    color: #4B6728;
+                    text-decoration: none;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    &:active{
+                        color: #ECFCF0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*------PLANTAS------*/
+
+.plantas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: #4B6728;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        padding-top: 80px;
+        padding-bottom: 160px;
+    } 
+    .plantas-cards{
+        display: grid;
+        grid-template-rows: 25%, 25%, 25%,25%;
+        grid-template-columns: 50%, 50%;
+        grid-template-areas:
+        "lirio-paz peperomia"
+        "lirio-verde monstera"
+        "higuera orquidea"
+        "sansivieria suculenta";
+        justify-items: center;
+        align-items: center;
+        row-gap: 4%;
+        margin-bottom: 350px;
+        width: 90%;
+        .card-lirio-paz{
+            width: 581px;
+            height: 707px;
+            background-color: #ECFCF0;
+            border-top-left-radius: 270px;
+            border-top-right-radius: 270px;
+            grid-area: lirio-paz;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .contenedor-imagen{
+                width: 432px;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cards-texto{
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    padding-top: 30px;
+                    padding-bottom: 15px;
+                }
+                p{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 466px;
+                }
+            }
+        }
+        .card-peperomia{
+            width: 581px;
+            height: 707px;
+            background-color: #ECFCF0;
+            border-top-left-radius: 270px;
+            border-top-right-radius: 270px;
+            grid-area: peperomia;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h2{
+                margin-top: 0px;
+            }
+            .contenedor-imagen{
+                width: 432px;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cards-texto{
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    padding-top: 30px;
+                    padding-bottom: 15px;
+                }
+                p{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 466px;
+                }
+            }
+        }
+        .card-lirio-verde{
+            width: 581px;
+            height: 707px;
+            background-color: #ECFCF0;
+            border-top-left-radius: 270px;
+            border-top-right-radius: 270px;
+            grid-area: lirio-verde;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .contenedor-imagen{
+                width: 432px;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cards-texto{
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    padding-top: 30px;
+                    padding-bottom: 15px;
+                }
+                p{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 466px;
+                }
+            }
+        }
+        .card-monstera{
+            width: 581px;
+            height: 707px;
+            background-color: #ECFCF0;
+            border-top-left-radius: 270px;
+            border-top-right-radius: 270px;
+            grid-area: monstera;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .contenedor-imagen{
+                width: 432px;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cards-texto{
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    padding-top: 30px;
+                    padding-bottom: 15px;
+                }
+                p{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 466px;
+                }
+            }
+        }
+        .card-higuera{
+            width: 581px;
+            height: 707px;
+            background-color: #ECFCF0;
+            border-top-left-radius: 270px;
+            border-top-right-radius: 270px;
+            grid-area: higuera;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .contenedor-imagen{
+                width: 432px;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cards-texto{
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    padding-top: 30px;
+                    padding-bottom: 15px;
+                }
+                p{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 466px;
+                }
+            }
+        }
+        .card-orquidea{
+            width: 581px;
+            height: 707px;
+            background-color: #ECFCF0;
+            border-top-left-radius: 270px;
+            border-top-right-radius: 270px;
+            grid-area: orquidea;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .contenedor-imagen{
+                width: 432px;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cards-texto{
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    padding-top: 30px;
+                    padding-bottom: 15px;
+                }
+                p{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 466px;
+                }
+            }
+        }
+        .card-sansivieria{
+            width: 581px;
+            height: 707px;
+            background-color: #ECFCF0;
+            border-top-left-radius: 270px;
+            border-top-right-radius: 270px;
+            grid-area: sansivieria;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .contenedor-imagen{
+                width: 432px;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cards-texto{
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    padding-top: 30px;
+                    padding-bottom: 15px;
+                }
+                p{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 466px;
+                }
+            }
+        }
+        .card-suculenta{
+            width: 581px;
+            height: 707px;
+            background-color: #ECFCF0;
+            border-top-left-radius: 270px;
+            border-top-right-radius: 270px;
+            grid-area: suculenta;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .contenedor-imagen{
+                width: 432px;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cards-texto{
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    padding-top: 30px;
+                    padding-bottom: 15px;
+                }
+                p{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 466px;
+                }
+            }
+        }
+    }
+    .visita{
+        width: 100%;
+        height: 91px;
+        background-color: #FFDA57;
+        margin-top: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        .contenido-visita{
+            width: 760px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 20px;
+            margin-right: 20px;
+            h3{
+                color: #4B6728;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+/*------CUIDADOS------*/
+
+.cuidados{
+    width: 100%;
+    height: auto;
+    h1{
+        color: #4B6728;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .riego{
+        width: auto;
+        height: 460px;
+        background-color: #ECFCF0;
+        border-bottom-left-radius:229px;
+        border-top-left-radius:229px;
+        color: #4B6728;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 145px;
+        margin-bottom: 150px;
+        .riego-texto{
+            margin-top: 30px ;
+            margin-right: 60px;
+            margin-bottom: 30px;
+            margin-left: 150px;
+            .iconoyriego{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 160px;
+                margin-bottom: 30px;
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 32px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .imagen-riego{
+            width: 514px;
+            height: 460px;
+        }
+        .imagen-riego-angosta{
+            display: none;
+        }
+    }
+    .luz{
+        width: auto;
+        height: 460px;
+        background-color: #ECFCF0;
+        border-top-right-radius:229px;
+        border-bottom-right-radius:229px;
+        color: #4B6728;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-right: 145px;
+        margin-bottom: 150px;
+        .imagen-luz-angosta{
+            display: none;
+        }
+        .luz-texto{
+            margin-top: 30px ;
+            margin-left: 60px;
+            margin-bottom: 30px;
+            margin-right: 150px;
+            .iconoyluz{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 215px;
+                margin-bottom: 30px;
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 32px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .temperatura{
+        width: auto;
+        height: 460px;
+        background-color: #ECFCF0;
+        border-bottom-left-radius:229px;
+        border-top-left-radius:229px;
+        color: #4B6728;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        margin-left: 145px;
+        .temperatura-texto{
+            margin-top: 30px ;
+            margin-right: 60px;
+            margin-bottom: 30px;
+            margin-left: 150px;
+            .iconoytemperatura{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 210px;
+                margin-bottom: 30px;
+                h2{
+                    color: #4B6728;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 32px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .imagen-temperatura{
+            width: 514px;
+            height: 460px;
+        }
+        .imagen-temperatura-angosta{
+            display: none;
+        }
+    }
+}
+
+/*------NOSOTROS------*/
+
+.seccion-nosotros{
+    display: flex;
+    justify-content: center;
+    .nosotros{
+        width: 85%;
+        display: grid;
+        grid-template-rows: 10% 40% 20% 20%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "nosotros-h1 nosotros-h1"
+        "historia mision"
+        "vision imagen-nosotros"
+        "valores imagen-nosotros";
+        justify-items: center;
+        align-items: center;
+        .nosotros-h1{   
+            color: #4B6728;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 600;
+            margin-top: 80px;
+            grid-area: nosotros-h1;
+        }
+        .historia{
+            width: 80%;
+            grid-area: historia;
+            display: flex;
+            flex-direction: column;
+            align-self: self-start;
+            margin-top: 80px;
+            h2{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 32px;
+                font-weight: 600;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            p{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+        .mision{
+            width: 80%;
+            grid-area: mision;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-self: self-start;
+            margin-top: 80px;
+            h2{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 32px;
+                font-weight: 600;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            p{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+        .vision{
+            width: 80%;
+            grid-area: vision;
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            h2{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 32px;
+                font-weight: 600;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            p{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+        .valores{
+            width: 80%;
+            grid-area: valores;
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            h2{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 32px;
+                font-weight: 600;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            p{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+        .imagen-nosotros{
+            grid-area: imagen-nosotros;
+            width: 80%;
+            .imagen-nosotros-desktop{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+/*------CONTACTO------*/
+
+.seccion-contacto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    .contacto{
+        display: grid;
+        grid-template-rows: 20% 60% 20%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "contacto-h1 contacto-h1"
+        "h2yformulario contenedor-imagen-contacto"
+        "mapa mapa";
+        flex-grow: 1;
+        .contacto-h1{
+            color: #4B6728;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 600;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            grid-area: contacto-h1;
+        }
+        .h2yformulario{
+            grid-area: h2yformulario;
+            margin-bottom: 50px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h2{
+                color: #4B6728;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 24px;
+                font-weight: 500;
+                margin-left: 300px;
+                margin-top: 100px;
+            }
+            .formulario{
+                padding-left: 200px;
+                .nombre{
+                    display: flex;
+                    flex-direction: column;
+                    label{
+                        color: #4B6728;
+                        text-align: left;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 15px;
+                        font-weight: 500;
+                        padding-top: 20px;
+                        padding-bottom: 2px;
+                    }
+                    input{
+                        border: 1px solid #4B6728;
+                        border-width: 1px;
+                        border-radius: 8px;
+                        height: 40px;
+                        width: 100%;
+                        padding-left: 12px;
+                        color: #4B6728;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+                .correo-formulario{
+                    display: flex;
+                    flex-direction: column;
+                    label{
+                        color: #4B6728;
+                        text-align: left;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 15px;
+                        font-weight: 500;
+                        padding-top: 20px;
+                        padding-bottom: 2px;
+                    }
+                    input{
+                        border: 1px solid #4B6728;
+                        border-width: 1px;
+                        border-radius: 8px;
+                        height: 40px;
+                        width: 100%;
+                        padding-left: 12px;
+                        color: #4B6728;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+                .telefono-formulario{
+                    display: flex;
+                    flex-direction: column;
+                    label{
+                        color: #4B6728;
+                        text-align: left;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 15px;
+                        font-weight: 500;
+                        padding-top: 20px;
+                        padding-bottom: 2px;
+                    }
+                    input{
+                        border: 1px solid #4B6728;
+                        border-width: 1px;
+                        border-radius: 8px;
+                        height: 40px;
+                        width: 100%;
+                        padding-left: 12px;
+                        color: #4B6728;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+                .mensaje{
+                    display: flex;
+                    flex-direction: column;
+                    label{
+                        color: #4B6728;
+                        text-align: left;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 15px;
+                        font-weight: 500;
+                        padding-top: 20px;
+                        padding-bottom: 2px;
+                    }
+                    textarea{
+                        border: 1px solid #4B6728;
+                        border-width: 1px;
+                        border-radius: 8px;
+                        width: 100%;
+                        padding-top: 12px;
+                        padding-left: 12px;
+                        max-height: 150px;
+                        color: #4B6728;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+                #enviar{
+                    color: #4B6728;
+                    text-align: center;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    background-color: #FFDA57;
+                    border: none;
+                    border-radius: 12px;
+                    width: 200px;
+                    padding-left: 0px;
+                    margin-top: 30px;
+                    margin-bottom: 100px;
+                }
+            }
+        }
+        .contenedor-imagen-contacto{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            grid-area: contenedor-imagen-contacto;
+            .imagen-contacto{
+                width: 685px;
+                height: 715px;
+            }
+            .imagen-contacto-mobile{
+                display: none;
+            }
+        }
+        .mapa{
+            grid-area: mapa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            iframe{
+                max-width: 100%;
+                max-height: 100%;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

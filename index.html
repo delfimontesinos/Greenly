@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,11 @@
         crossorigin="anonymous"></script>
     <!--ÍCONOS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--AOS css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--CSS-->
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Greenly</title>
@@ -52,7 +57,7 @@
     <main>
         <!--Hero-->
         <section class="hero">
-            <h1>La naturaleza en tu hogar</h1>
+            <h1 class="animate__animated animate__fadeInDown">La naturaleza en tu hogar</h1>
             <p>Explorá nuestra amplia selección de plantas de interior, y encontrá la planta perfecta para dar vida, frescura y serenidad a tus espacios interiores.
             </p>
             <div class="boton-ver-plantas">
@@ -63,7 +68,7 @@
         <section class="reconectemos">
             <h2>Reconectemos con lo natural</h2>
             <div class="contenido-reconectemos">
-                <div class="imagen-reconectemos">
+                <div class="imagen-reconectemos" data-aos="fade-right">
                     <img class="imagen-monstera-peperomia" src="./img/imagen-monstera-pep.jpg"
                         alt="plantas monstera y peperomia">
                     <img class="imagen-monstera-peperomia-mobile" src="./img/imagen-monstera-pep-mobile.jpg"
@@ -130,8 +135,8 @@
         <section class="cuidado">
             <h2>Cuidado de las plantas</h2>
             <div class="contenido-cuidado">
-                <img class="imagen-cuidado" src="./img/imagen-cuidado.jpg" alt="Regadera, maceta, guantes y pala">
-                <img class="imagen-cuidado-mobile" src="./img/imagen-cuidado-mobile.jpg"
+                <img class="imagen-cuidado" data-aos="fade-right" src="./img/imagen-cuidado.jpg" alt="Regadera, maceta, guantes y pala">
+                <img class="imagen-cuidado-mobile" data-aos="fade-right" src="./img/imagen-cuidado-mobile.jpg"
                     alt="Regadera, maceta, guantes y pala">
                 <div class="texto-cuidado">
                     <h3>¿Cómo cuidar nuestras plantas?</h3>
@@ -183,5 +188,8 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

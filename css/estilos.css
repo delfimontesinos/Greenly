@@ -1,5 +1,23 @@
-/*----------FONT----------*/
+/*----------VARIABLES----------*/
+/*-En header y footer:-*/
+/*----------ARRAY----------*/
+/*----------MAPS----------*/
+/*----------MIXIN----------*/
+/*----------EXTEND----------*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+.hero, .hero .boton-ver-plantas, .reconectemos .contenido-reconectemos .texto-reconectemos .boton-contenedor, .cuidado .contenido-cuidado .texto-cuidado .boton-contenedor, .plantas, .plantas .plantas-cards .card-lirio-paz, .plantas .plantas-cards .card-peperomia, .plantas .plantas-cards .card-lirio-verde, .plantas .plantas-cards .card-monstera, .plantas .plantas-cards .card-higuera, .plantas .plantas-cards .card-orquidea, .plantas .plantas-cards .card-sansivieria, .plantas .plantas-cards .card-suculenta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.cuidados .riego, .cuidados .luz, .cuidados .temperatura {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+/*----------FONT----------*/
 /*----------RESET----------*/
 * {
   padding: 0;
@@ -10,6 +28,10 @@
   position: fixed;
   right: 50px;
   bottom: 50px; }
+  .whatsapp-flotante:hover {
+    transform: scale(1.1); }
+  .whatsapp-flotante img {
+    transition: transform 0.3s; }
 
 /*--BOOTSTRAP--*/
 /*--Plantas de interior - index--*/
@@ -99,11 +121,7 @@ header nav {
   background-image: url(../img/hero-image-sillon.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  background-repeat: no-repeat; }
   .hero h1 {
     color: #ECFCF0;
     font-family: 'Montserrat', sans-serif;
@@ -126,10 +144,7 @@ header nav {
     width: 200px;
     height: 52px;
     background-color: #FFDA57;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    border-radius: 12px; }
     .hero .boton-ver-plantas:hover {
       background-color: #FFE792; }
     .hero .boton-ver-plantas:active {
@@ -157,9 +172,8 @@ header nav {
   .reconectemos .contenido-reconectemos {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
     .reconectemos .contenido-reconectemos .imagen-reconectemos .imagen-monstera-peperomia {
       margin-right: 50px; }
     .reconectemos .contenido-reconectemos .imagen-reconectemos .imagen-monstera-peperomia-mobile {
@@ -167,7 +181,6 @@ header nav {
     .reconectemos .contenido-reconectemos .texto-reconectemos {
       display: flex;
       flex-direction: column;
-      justify-content: right;
       justify-content: space-around;
       align-items: start;
       margin-right: 100px; }
@@ -192,10 +205,7 @@ header nav {
         height: 52px;
         border: 2px solid #4B6728;
         border-radius: 12px;
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
+        margin-top: 20px; }
         .reconectemos .contenido-reconectemos .texto-reconectemos .boton-contenedor:hover {
           background-color: #F0F7E7; }
         .reconectemos .contenido-reconectemos .texto-reconectemos .boton-contenedor:active {
@@ -224,9 +234,8 @@ header nav {
   .cuidado .contenido-cuidado {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
     .cuidado .contenido-cuidado .imagen-cuidado {
       margin-right: 50px; }
     .cuidado .contenido-cuidado .imagen-cuidado-mobile {
@@ -234,7 +243,6 @@ header nav {
     .cuidado .contenido-cuidado .texto-cuidado {
       display: flex;
       flex-direction: column;
-      justify-content: right;
       justify-content: space-around;
       align-items: start;
       margin-right: 100px; }
@@ -259,10 +267,7 @@ header nav {
         height: 52px;
         border: 2px solid #4B6728;
         border-radius: 12px;
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
+        margin-top: 20px; }
         .cuidado .contenido-cuidado .texto-cuidado .boton-contenedor:hover {
           background-color: #F0F7E7; }
         .cuidado .contenido-cuidado .texto-cuidado .boton-contenedor:active {
@@ -279,11 +284,7 @@ header nav {
 /*------PLANTAS------*/
 .plantas {
   width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  height: auto; }
   .plantas h1 {
     color: #4B6728;
     text-align: center;
@@ -308,17 +309,17 @@ header nav {
       background-color: #ECFCF0;
       border-top-left-radius: 270px;
       border-top-right-radius: 270px;
-      grid-area: lirio-paz;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      grid-area: lirio-paz; }
       .plantas .plantas-cards .card-lirio-paz .contenedor-imagen {
         width: 432px;
         height: 450px;
         display: flex;
         justify-content: center;
         align-items: center; }
+        .plantas .plantas-cards .card-lirio-paz .contenedor-imagen:hover {
+          transform: scale(1.1); }
+        .plantas .plantas-cards .card-lirio-paz .contenedor-imagen .foto-lirio-paz {
+          transition: transform 0.3s; }
       .plantas .plantas-cards .card-lirio-paz .cards-texto h2 {
         color: #4B6728;
         text-align: left;
@@ -340,11 +341,7 @@ header nav {
       background-color: #ECFCF0;
       border-top-left-radius: 270px;
       border-top-right-radius: 270px;
-      grid-area: peperomia;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      grid-area: peperomia; }
       .plantas .plantas-cards .card-peperomia h2 {
         margin-top: 0px; }
       .plantas .plantas-cards .card-peperomia .contenedor-imagen {
@@ -353,6 +350,10 @@ header nav {
         display: flex;
         justify-content: center;
         align-items: center; }
+        .plantas .plantas-cards .card-peperomia .contenedor-imagen:hover {
+          transform: scale(1.1); }
+        .plantas .plantas-cards .card-peperomia .contenedor-imagen .foto-peperomia {
+          transition: transform 0.3s; }
       .plantas .plantas-cards .card-peperomia .cards-texto h2 {
         color: #4B6728;
         text-align: left;
@@ -374,17 +375,17 @@ header nav {
       background-color: #ECFCF0;
       border-top-left-radius: 270px;
       border-top-right-radius: 270px;
-      grid-area: lirio-verde;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      grid-area: lirio-verde; }
       .plantas .plantas-cards .card-lirio-verde .contenedor-imagen {
         width: 432px;
         height: 450px;
         display: flex;
         justify-content: center;
         align-items: center; }
+        .plantas .plantas-cards .card-lirio-verde .contenedor-imagen:hover {
+          transform: scale(1.1); }
+        .plantas .plantas-cards .card-lirio-verde .contenedor-imagen .foto-lirio-verde {
+          transition: transform 0.3s; }
       .plantas .plantas-cards .card-lirio-verde .cards-texto h2 {
         color: #4B6728;
         text-align: left;
@@ -406,17 +407,17 @@ header nav {
       background-color: #ECFCF0;
       border-top-left-radius: 270px;
       border-top-right-radius: 270px;
-      grid-area: monstera;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      grid-area: monstera; }
       .plantas .plantas-cards .card-monstera .contenedor-imagen {
         width: 432px;
         height: 450px;
         display: flex;
         justify-content: center;
         align-items: center; }
+        .plantas .plantas-cards .card-monstera .contenedor-imagen:hover {
+          transform: scale(1.1); }
+        .plantas .plantas-cards .card-monstera .contenedor-imagen .foto-monstera {
+          transition: transform 0.3s; }
       .plantas .plantas-cards .card-monstera .cards-texto h2 {
         color: #4B6728;
         text-align: left;
@@ -438,17 +439,17 @@ header nav {
       background-color: #ECFCF0;
       border-top-left-radius: 270px;
       border-top-right-radius: 270px;
-      grid-area: higuera;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      grid-area: higuera; }
       .plantas .plantas-cards .card-higuera .contenedor-imagen {
         width: 432px;
         height: 450px;
         display: flex;
         justify-content: center;
         align-items: center; }
+        .plantas .plantas-cards .card-higuera .contenedor-imagen:hover {
+          transform: scale(1.1); }
+        .plantas .plantas-cards .card-higuera .contenedor-imagen .foto-higuera {
+          transition: transform 0.3s; }
       .plantas .plantas-cards .card-higuera .cards-texto h2 {
         color: #4B6728;
         text-align: left;
@@ -470,17 +471,17 @@ header nav {
       background-color: #ECFCF0;
       border-top-left-radius: 270px;
       border-top-right-radius: 270px;
-      grid-area: orquidea;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      grid-area: orquidea; }
       .plantas .plantas-cards .card-orquidea .contenedor-imagen {
         width: 432px;
         height: 450px;
         display: flex;
         justify-content: center;
         align-items: center; }
+        .plantas .plantas-cards .card-orquidea .contenedor-imagen:hover {
+          transform: scale(1.1); }
+        .plantas .plantas-cards .card-orquidea .contenedor-imagen .foto-orquidea {
+          transition: transform 0.3s; }
       .plantas .plantas-cards .card-orquidea .cards-texto h2 {
         color: #4B6728;
         text-align: left;
@@ -502,17 +503,17 @@ header nav {
       background-color: #ECFCF0;
       border-top-left-radius: 270px;
       border-top-right-radius: 270px;
-      grid-area: sansivieria;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      grid-area: sansivieria; }
       .plantas .plantas-cards .card-sansivieria .contenedor-imagen {
         width: 432px;
         height: 450px;
         display: flex;
         justify-content: center;
         align-items: center; }
+        .plantas .plantas-cards .card-sansivieria .contenedor-imagen:hover {
+          transform: scale(1.1); }
+        .plantas .plantas-cards .card-sansivieria .contenedor-imagen .foto-sansivieria {
+          transition: transform 0.3s; }
       .plantas .plantas-cards .card-sansivieria .cards-texto h2 {
         color: #4B6728;
         text-align: left;
@@ -534,17 +535,17 @@ header nav {
       background-color: #ECFCF0;
       border-top-left-radius: 270px;
       border-top-right-radius: 270px;
-      grid-area: suculenta;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      grid-area: suculenta; }
       .plantas .plantas-cards .card-suculenta .contenedor-imagen {
         width: 432px;
         height: 450px;
         display: flex;
         justify-content: center;
         align-items: center; }
+        .plantas .plantas-cards .card-suculenta .contenedor-imagen:hover {
+          transform: scale(1.1); }
+        .plantas .plantas-cards .card-suculenta .contenedor-imagen .foto-suculenta {
+          transition: transform 0.3s; }
       .plantas .plantas-cards .card-suculenta .cards-texto h2 {
         color: #4B6728;
         text-align: left;
@@ -587,16 +588,22 @@ header nav {
 /*------CUIDADOS------*/
 .cuidados {
   width: 100%;
-  height: auto; }
+  height: auto;
+  display: grid;
+  grid-template-rows: 8% 30.6% 30.6% 30.6%;
+  grid-template-columns: 1fr;
+  grid-template-areas: "cuidados-h1" "riego" "luz" "temperatura"; }
   .cuidados h1 {
+    grid-area: cuidados-h1;
     color: #4B6728;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-weight: 600;
     padding-top: 80px;
-    padding-bottom: 80px; }
+    margin-bottom: 0px; }
   .cuidados .riego {
+    grid-area: riego;
     width: auto;
     height: 460px;
     background-color: #ECFCF0;
@@ -607,10 +614,6 @@ header nav {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     margin-top: 100px;
     margin-left: 145px;
     margin-bottom: 150px; }
@@ -622,8 +625,8 @@ header nav {
       .cuidados .riego .riego-texto .iconoyriego {
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
         width: 160px;
         margin-bottom: 30px; }
         .cuidados .riego .riego-texto .iconoyriego h2 {
@@ -631,13 +634,15 @@ header nav {
           text-align: left;
           font-family: 'Montserrat', sans-serif;
           font-size: 32px;
-          font-weight: 600; }
+          font-weight: 600;
+          margin-bottom: 0px; }
     .cuidados .riego .imagen-riego {
       width: 514px;
       height: 460px; }
     .cuidados .riego .imagen-riego-angosta {
       display: none; }
   .cuidados .luz {
+    grid-area: luz;
     width: auto;
     height: 460px;
     background-color: #ECFCF0;
@@ -648,10 +653,6 @@ header nav {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     margin-top: 100px;
     margin-right: 145px;
     margin-bottom: 150px; }
@@ -665,8 +666,8 @@ header nav {
       .cuidados .luz .luz-texto .iconoyluz {
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
         width: 215px;
         margin-bottom: 30px; }
         .cuidados .luz .luz-texto .iconoyluz h2 {
@@ -674,8 +675,10 @@ header nav {
           text-align: left;
           font-family: 'Montserrat', sans-serif;
           font-size: 32px;
-          font-weight: 600; }
+          font-weight: 600;
+          margin-bottom: 0px; }
   .cuidados .temperatura {
+    grid-area: temperatura;
     width: auto;
     height: 460px;
     background-color: #ECFCF0;
@@ -686,10 +689,6 @@ header nav {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     margin-top: 100px;
     margin-bottom: 150px;
     margin-left: 145px; }
@@ -701,8 +700,8 @@ header nav {
       .cuidados .temperatura .temperatura-texto .iconoytemperatura {
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
         width: 210px;
         margin-bottom: 30px; }
         .cuidados .temperatura .temperatura-texto .iconoytemperatura h2 {
@@ -710,7 +709,8 @@ header nav {
           text-align: left;
           font-family: 'Montserrat', sans-serif;
           font-size: 32px;
-          font-weight: 600; }
+          font-weight: 600;
+          margin-bottom: 0px; }
     .cuidados .temperatura .imagen-temperatura {
       width: 514px;
       height: 460px; }
@@ -739,13 +739,13 @@ header nav {
       grid-area: nosotros-h1; }
     .seccion-nosotros .nosotros .historia {
       width: 80%;
+      color: #4B6728;
       grid-area: historia;
       display: flex;
       flex-direction: column;
       align-self: self-start;
       margin-top: 80px; }
       .seccion-nosotros .nosotros .historia h2 {
-        color: #4B6728;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
         font-size: 32px;
@@ -753,13 +753,13 @@ header nav {
         padding-top: 30px;
         padding-bottom: 30px; }
       .seccion-nosotros .nosotros .historia p {
-        color: #4B6728;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
     .seccion-nosotros .nosotros .mision {
       width: 80%;
+      color: #4B6728;
       grid-area: mision;
       display: flex;
       flex-direction: column;
@@ -767,7 +767,6 @@ header nav {
       align-self: self-start;
       margin-top: 80px; }
       .seccion-nosotros .nosotros .mision h2 {
-        color: #4B6728;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
         font-size: 32px;
@@ -775,20 +774,19 @@ header nav {
         padding-top: 30px;
         padding-bottom: 30px; }
       .seccion-nosotros .nosotros .mision p {
-        color: #4B6728;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
     .seccion-nosotros .nosotros .vision {
       width: 80%;
+      color: #4B6728;
       grid-area: vision;
       display: flex;
       flex-direction: column;
       margin-top: 50px;
       margin-bottom: 100px; }
       .seccion-nosotros .nosotros .vision h2 {
-        color: #4B6728;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
         font-size: 32px;
@@ -796,20 +794,19 @@ header nav {
         padding-top: 30px;
         padding-bottom: 30px; }
       .seccion-nosotros .nosotros .vision p {
-        color: #4B6728;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
     .seccion-nosotros .nosotros .valores {
       width: 80%;
+      color: #4B6728;
       grid-area: valores;
       display: flex;
       flex-direction: column;
       margin-top: 100px;
       margin-bottom: 100px; }
       .seccion-nosotros .nosotros .valores h2 {
-        color: #4B6728;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
         font-size: 32px;
@@ -817,7 +814,6 @@ header nav {
         padding-top: 30px;
         padding-bottom: 30px; }
       .seccion-nosotros .nosotros .valores p {
-        color: #4B6728;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
@@ -967,9 +963,14 @@ header nav {
           border: none;
           border-radius: 12px;
           width: 200px;
+          height: 48px;
           padding-left: 0px;
           margin-top: 30px;
           margin-bottom: 100px; }
+          .seccion-contacto .contacto .h2yformulario .formulario #enviar:hover {
+            background-color: #FFE792; }
+          .seccion-contacto .contacto .h2yformulario .formulario #enviar:active {
+            background-color: #FFDA57; }
     .seccion-contacto .contacto .contenedor-imagen-contacto {
       display: flex;
       justify-content: end;
@@ -1179,18 +1180,22 @@ footer {
     height: auto;
     margin-left: 20px;
     border-bottom-left-radius: 270px;
-    border-top-left-radius: 270px; }
+    border-top-left-radius: 270px;
+    overflow: hidden; }
     .cuidados .riego .imagen-riego {
       width: 614px;
       height: 560px;
       display: none; }
     .cuidados .riego .imagen-riego-angosta {
-      display: flex; }
+      display: flex;
+      width: auto;
+      height: 541px; }
   .cuidados .luz {
     height: auto;
     margin-right: 20px;
     border-bottom-right-radius: 270px;
-    border-top-right-radius: 270px; }
+    border-top-right-radius: 270px;
+    overflow: hidden; }
     .cuidados .luz .imagen-luz {
       width: 614px;
       height: 560px;
@@ -1201,7 +1206,8 @@ footer {
     height: auto;
     margin-left: 20px;
     border-bottom-left-radius: 270px;
-    border-top-left-radius: 270px; }
+    border-top-left-radius: 270px;
+    overflow: hidden; }
     .cuidados .temperatura .imagen-temperatura {
       width: 614px;
       height: 560px;
@@ -1524,72 +1530,82 @@ footer {
         height: auto; }
     .plantas .plantas-cards .card-suculenta .cards-texto h2 {
       padding-top: 10px; }
-  .cuidados .riego {
-    flex-direction: column;
-    text-align: center;
-    margin-left: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px; }
-    .cuidados .riego .riego-texto {
-      width: 80%;
-      margin: 38px 0px 30px 0px;
-      display: flex;
+  .cuidados {
+    margin-bottom: 100px; }
+    .cuidados .riego {
       flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-    .cuidados .riego .imagen-riego {
-      display: flex;
-      width: 476px;
-      height: 425px;
-      margin-bottom: 38px; }
-    .cuidados .riego .imagen-riego-angosta {
-      display: none; }
-  .cuidados .luz {
-    flex-direction: column-reverse;
-    text-align: center;
-    margin-right: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px; }
-    .cuidados .luz .imagen-luz-angosta {
-      display: none; }
-    .cuidados .luz .imagen-luz {
-      display: flex;
-      width: 476px;
-      height: 425px;
-      margin-bottom: 38px; }
-    .cuidados .luz .luz-texto {
-      width: 80%;
-      margin: 38px 0px 30px 0px;
-      display: flex;
+      text-align: center;
+      margin-left: 0px;
+      margin-bottom: 0px;
+      border-bottom-left-radius: 0px;
+      border-top-left-radius: 200px;
+      border-top-right-radius: 200px; }
+      .cuidados .riego .riego-texto {
+        width: 80%;
+        margin: 38px 0px 30px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .cuidados .riego .riego-texto .iconoyriego {
+          margin-top: 30px; }
+      .cuidados .riego .imagen-riego {
+        display: flex;
+        width: 476px;
+        height: 425px;
+        margin-bottom: 50px; }
+      .cuidados .riego .imagen-riego-angosta {
+        display: none; }
+    .cuidados .luz {
+      flex-direction: column-reverse;
+      text-align: center;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 200px;
+      border-top-right-radius: 200px; }
+      .cuidados .luz .imagen-luz-angosta {
+        display: none; }
+      .cuidados .luz .imagen-luz {
+        display: flex;
+        width: 476px;
+        height: 425px;
+        margin-bottom: 60px; }
+      .cuidados .luz .luz-texto {
+        width: 80%;
+        margin: 38px 0px 30px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .cuidados .luz .luz-texto .iconoyluz {
+          margin-top: 30px; }
+    .cuidados .temperatura {
       flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-  .cuidados .temperatura {
-    flex-direction: column;
-    text-align: center;
-    margin-left: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px; }
-    .cuidados .temperatura .temperatura-texto {
-      width: 80%;
-      margin: 38px 0px 30px 0px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-      .cuidados .temperatura .temperatura-texto .iconoytemperatura {
-        margin-right: 50px; }
-    .cuidados .temperatura .imagen-temperatura-angosta {
-      display: none; }
-    .cuidados .temperatura .imagen-temperatura {
-      display: flex;
-      width: 476px;
-      height: 425px;
-      margin-bottom: 38px; }
+      text-align: center;
+      margin-left: 0px;
+      margin-bottom: 0px;
+      border-bottom-left-radius: 0px;
+      border-top-left-radius: 200px;
+      border-top-right-radius: 200px; }
+      .cuidados .temperatura .temperatura-texto {
+        width: 80%;
+        margin: 38px 0px 30px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .cuidados .temperatura .temperatura-texto .iconoytemperatura {
+          margin-top: 30px;
+          margin-right: 50px; }
+      .cuidados .temperatura .imagen-temperatura-angosta {
+        display: none; }
+      .cuidados .temperatura .imagen-temperatura {
+        display: flex;
+        width: 476px;
+        height: 425px;
+        margin-bottom: 60px; }
   .seccion-nosotros .nosotros {
     width: 80%;
     grid-template-rows: 10% 20% 20% 15% 15% 20%;
@@ -1968,8 +1984,11 @@ footer {
     .hero p {
       font-size: 14px;
       width: 90%; }
-    .hero .boton-ver-plantas a {
-      font-size: 20px; }
+    .hero .boton-ver-plantas {
+      width: 200px;
+      height: 48px; }
+      .hero .boton-ver-plantas a {
+        font-size: 18px; }
   .reconectemos {
     height: auto;
     background-image: none; }
@@ -1999,8 +2018,11 @@ footer {
           width: 90%;
           text-align: center; }
         .reconectemos .contenido-reconectemos .texto-reconectemos .boton-contenedor {
-          margin-bottom: 50px;
-          font-size: 16px; }
+          width: 200px;
+          height: 48px;
+          margin-bottom: 50px; }
+          .reconectemos .contenido-reconectemos .texto-reconectemos .boton-contenedor a {
+            font-size: 18px; }
   .plantas-inicio {
     background-position-x: 0; }
   .titulo-plantas-inicio {
@@ -2010,6 +2032,11 @@ footer {
     font-size: 14px;
     text-align: center;
     width: 90%; }
+  .boton-ver-todas {
+    width: 200px;
+    height: 48px; }
+  .boton-ver-todas a {
+    font-size: 18px; }
   .cuidado {
     height: auto;
     background-image: none; }
@@ -2033,8 +2060,11 @@ footer {
           text-align: center;
           width: 90%; }
         .cuidado .contenido-cuidado .texto-cuidado .boton-contenedor {
-          margin-bottom: 50px;
-          font-size: 16px; }
+          width: 200px;
+          height: 48px;
+          margin-bottom: 50px; }
+          .cuidado .contenido-cuidado .texto-cuidado .boton-contenedor a {
+            font-size: 18px; }
   .plantas {
     height: auto; }
     .plantas h1 {
@@ -2211,15 +2241,15 @@ footer {
       .plantas .visita .contenido-visita h3 {
         font-size: 18px; }
   .cuidados {
-    height: auto; }
+    height: auto;
+    margin-bottom: 0px; }
     .cuidados h1 {
       font-size: 28px;
-      padding-top: 40px;
-      padding-bottom: 40px; }
+      padding-top: 80px; }
     .cuidados .riego {
       border-top-right-radius: 210px;
       border-top-left-radius: 210px;
-      margin-top: 50px;
+      margin-top: 0px;
       margin-bottom: 100px; }
       .cuidados .riego .riego-texto {
         width: 80%;
@@ -2247,7 +2277,7 @@ footer {
     .cuidados .luz {
       border-top-left-radius: 210px;
       border-top-right-radius: 210px;
-      margin-top: 70px;
+      margin-top: 0px;
       margin-bottom: 100px; }
       .cuidados .luz .imagen-luz {
         width: 100%;
@@ -2275,14 +2305,14 @@ footer {
     .cuidados .temperatura {
       border-top-right-radius: 210px;
       border-top-left-radius: 210px;
-      margin-top: 70px;
-      margin-bottom: 100px; }
+      margin-top: 0px;
+      margin-bottom: 80px; }
       .cuidados .temperatura .temperatura-texto {
         width: 80%;
-        margin-top: 30px;
+        margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;
-        margin-bottom: 30px; }
+        margin-bottom: 10px; }
         .cuidados .temperatura .temperatura-texto .iconoytemperatura {
           width: 160px;
           height: 70px;
@@ -2300,6 +2330,7 @@ footer {
       .cuidados .temperatura .imagen-temperatura {
         width: 100%;
         height: auto;
+        margin-top: 15px;
         margin-bottom: 0px; }
   .seccion-nosotros .nosotros .nosotros-h1 {
     font-size: 28px;
@@ -2355,6 +2386,9 @@ footer {
     .seccion-contacto .contacto .h2yformulario .formulario {
       width: 80%;
       padding-left: 0px; }
+      .seccion-contacto .contacto .h2yformulario .formulario #enviar {
+        font-size: 18px;
+        width: 150px; }
     .seccion-contacto .contacto .contenedor-imagen-contacto .imagen-contacto {
       display: none; }
     .seccion-contacto .contacto .contenedor-imagen-contacto .imagen-contacto-mobile {

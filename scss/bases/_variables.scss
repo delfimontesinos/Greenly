@@ -1,1 +1,47 @@
-$color-primario: #384D1F
+/*----------VARIABLES----------*/
+
+/*-En header y footer:-*/
+$color-primario: #384D1F;
+$color-secundario: #ECFCF0;
+
+/*----------ARRAY----------*/
+
+$colores: #ECFCF0, #FFDA57, #FFE792, #4B6728;
+
+/*----------MAPS----------*/
+
+$boton:(
+    color-texto: #4B6728,
+    borde: 2px solid #4B6728,
+    fondo-hover: #F0F7E7,
+    fondo-active: #4B6728,
+    color-texto-active: #ECFCF0,
+);
+
+/*----------MIXIN----------*/
+
+@mixin flex ($flex, $direction, $justify, $align){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+/*----------EXTEND----------*/
+
+%flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

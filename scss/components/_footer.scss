@@ -1,6 +1,6 @@
 /*----------FOOTER----------*/
 footer{
-    background-color: #384D1F;
+    background-color: $color-primario;
     height: auto;
     display: grid;
     grid-template-rows: 100%;
@@ -12,7 +12,7 @@ footer{
         grid-area: contactanos;
         margin-bottom: 60px;
         h3{
-            color: #ECFCF0;
+            color: $color-secundario;
             font-family: 'Montserrat', sans-serif;
             font-size: 24px;
             font-weight: 600;
@@ -32,7 +32,7 @@ footer{
                 height: 28px;
             }
             p{
-                color: #ECFCF0;
+                color: $color-secundario;
                 font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
@@ -50,7 +50,7 @@ footer{
                 height: 26px;
             }
             p{
-                color: #ECFCF0;
+                color: $color-secundario;
                 font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
@@ -68,7 +68,7 @@ footer{
                 height: 24px;
             }
             p{
-                color: #ECFCF0;
+                color: $color-secundario;
                 font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
@@ -78,7 +78,7 @@ footer{
     .local{
         grid-area: local;
         h3{
-            color: #ECFCF0;
+            color: $color-secundario;
             font-family: 'Montserrat', sans-serif;
             font-size: 24px;
             font-weight: 600;
@@ -98,7 +98,7 @@ footer{
                 height: 28px;
             }
             p{
-                color: #ECFCF0;
+                color: $color-secundario;
                 font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
@@ -108,7 +108,7 @@ footer{
     .seguinos{
         grid-area: seguinos;
         h3{
-            color: #ECFCF0;
+            color: $color-secundario;
             font-family: 'Montserrat', sans-serif;
             font-size: 24px;
             font-weight: 600;

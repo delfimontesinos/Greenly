@@ -112,6 +112,7 @@
             margin-left: 20px;
             border-bottom-left-radius: 270px;
             border-top-left-radius: 270px;
+            overflow: hidden;
             .imagen-riego{
                 width: 614px;
                 height: 560px;
@@ -119,6 +120,8 @@
             }
             .imagen-riego-angosta{
                 display: flex;
+                width: auto;
+                height: 541px;
             }
         }
         .luz{
@@ -126,6 +129,7 @@
             margin-right: 20px;
             border-bottom-right-radius: 270px;
             border-top-right-radius: 270px;
+            overflow: hidden;
             .imagen-luz{
                 width: 614px;
                 height: 560px;
@@ -140,6 +144,7 @@
             margin-left: 20px;
             border-bottom-left-radius: 270px;
             border-top-left-radius: 270px;
+            overflow: hidden;
             .imagen-temperatura{
                 width: 614px;
                 height: 560px;
@@ -828,10 +833,12 @@
 
 
     .cuidados{
+        margin-bottom: 100px;
         .riego{
             flex-direction: column;
             text-align: center;
             margin-left: 0px;
+            margin-bottom: 0px;
             border-bottom-left-radius: 0px;
             border-top-left-radius: 200px;
             border-top-right-radius: 200px;
@@ -842,12 +849,15 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                .iconoyriego{
+                    margin-top: 30px;
+                }
             }
             .imagen-riego{
                 display: flex;
                 width: 476px;
                 height: 425px;
-                margin-bottom: 38px;
+                margin-bottom: 50px;
             }
             .imagen-riego-angosta{
                 display: none;
@@ -857,6 +867,7 @@
             flex-direction: column-reverse;
             text-align: center;
             margin-right: 0px;
+            margin-bottom: 0px;
             border-bottom-left-radius: 0px;
             border-bottom-right-radius: 0px;
             border-top-left-radius: 200px;
@@ -868,7 +879,7 @@
                 display: flex;
                 width: 476px;
                 height: 425px;
-                margin-bottom: 38px;
+                margin-bottom: 60px;
             }
             .luz-texto{
                 width: 80%;
@@ -877,12 +888,16 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                .iconoyluz{
+                    margin-top: 30px;
+                }
             }
         }
         .temperatura{
             flex-direction: column;
             text-align: center;
             margin-left: 0px;
+            margin-bottom: 0px;
             border-bottom-left-radius: 0px;
             border-top-left-radius: 200px;
             border-top-right-radius: 200px;
@@ -894,6 +909,7 @@
                 justify-content: center;
                 align-items: center;
                 .iconoytemperatura{
+                    margin-top: 30px;
                     margin-right: 50px;
                 }
             }
@@ -904,7 +920,7 @@
                 display: flex;
                 width: 476px;
                 height: 425px;
-                margin-bottom: 38px;
+                margin-bottom: 60px;
             }
         }
     }
@@ -1541,8 +1557,10 @@
             width: 90%;
         }
         .boton-ver-plantas{
+            width: 200px;
+            height: 48px;
             a{
-                font-size: 20px;
+                font-size: 18px;
             }
         }
     }
@@ -1587,8 +1605,12 @@
                     text-align: center;
                 }
                 .boton-contenedor{
+                    width: 200px;
+                    height: 48px;
                     margin-bottom: 50px;
-                    font-size: 16px;
+                    a{
+                        font-size: 18px;
+                    }
                 }
             }
         }
@@ -1610,6 +1632,15 @@
         font-size: 14px;
         text-align: center;
         width: 90%;
+    }
+
+    .boton-ver-todas{
+        width: 200px;
+        height: 48px;
+    }
+
+    .boton-ver-todas a{
+        font-size: 18px;
     }
 
 
@@ -1642,8 +1673,12 @@
                     width: 90%;
                 }
                 .boton-contenedor{
+                    width: 200px;
+                    height: 48px;
                     margin-bottom: 50px;
-                    font-size: 16px;
+                    a{
+                        font-size: 18px;
+                    }
                 }
             }
         }
@@ -1899,15 +1934,15 @@
 
     .cuidados{
         height: auto;
+        margin-bottom: 0px;
         h1{
             font-size: 28px;
-            padding-top: 40px;
-            padding-bottom: 40px;
+            padding-top: 80px;
         }
         .riego{
             border-top-right-radius: 210px;
             border-top-left-radius: 210px;
-            margin-top: 50px;
+            margin-top: 0px;
             margin-bottom: 100px;
             .riego-texto{
                 width: 80%;
@@ -1942,7 +1977,7 @@
         .luz{
             border-top-left-radius: 210px;
             border-top-right-radius: 210px;
-            margin-top: 70px;
+            margin-top: 0px;
             margin-bottom: 100px;
             .imagen-luz{
                 width: 100%;
@@ -1977,14 +2012,14 @@
         .temperatura{
             border-top-right-radius: 210px;
             border-top-left-radius: 210px;
-            margin-top: 70px;
-            margin-bottom: 100px;
+            margin-top: 0px;
+            margin-bottom: 80px;
             .temperatura-texto{
                 width: 80%;
-                margin-top: 30px;
+                margin-top: 0px;
                 margin-left: 0px;
                 margin-right: 0px;
-                margin-bottom: 30px;
+                margin-bottom: 10px;
                 .iconoytemperatura{
                     width: 160px;
                     height: 70px;
@@ -2007,6 +2042,7 @@
             .imagen-temperatura{
                 width: 100%;
                 height: auto;
+                margin-top: 15px;
                 margin-bottom: 0px;
             }
         }
@@ -2098,6 +2134,10 @@
                 .formulario{
                     width: 80%;
                     padding-left: 0px;
+                    #enviar{
+                        font-size: 18px;
+                        width: 150px;
+                    }
                 }
             }
             .contenedor-imagen-contacto{

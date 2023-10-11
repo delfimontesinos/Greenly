@@ -6,11 +6,11 @@ header{
 }
 
 header nav{
-    background-color: #384D1F;
+    background-color: $color-primario;
 }
 
 .enlaces-nav{
-    color: #ECFCF0;
+    color: $color-secundario;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -23,6 +23,6 @@ header nav{
 }
 
 .icono-menu{
-    color: #ECFCF0;
+    color: $color-secundario;
     font-size: 40px;
 }

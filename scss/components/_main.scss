@@ -4,6 +4,7 @@
 .hero{
     width: 100%;
     height: 800px;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     background-image: url(../img/hero-image.webp);
     background-size: cover;
@@ -12,7 +13,6 @@
     @extend %flex-column;
     h1{
         color: nth($colores, 1);
-        font-family: 'Montserrat', sans-serif;
         font-size: 75px;
         font-weight: 600;
         width: 90%;
@@ -22,7 +22,6 @@
     }
     p{
         color: nth($colores, 1);
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 600;
         text-align: center;
@@ -45,7 +44,6 @@
         a{
             color: nth($colores, 4);
             text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
             font-size: 20px;
             font-weight: 600;
         }
@@ -57,11 +55,11 @@
 .reconectemos{
     width: 100%;
     height: 984px;
+    font-family: 'Montserrat', sans-serif;
     h2{   
         color: nth($colores, 4);
         text-align: center;
         text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
         font-size: 48px;
         font-weight: 600;
         padding-top: 80px;
@@ -83,7 +81,6 @@
             h3{
                 color: nth($colores, 4);
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 32px;
                 font-weight: 600;
                 padding-top:15px;
@@ -92,7 +89,6 @@
             p{
                 color: nth($colores, 4);
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
                 padding-top:15px;
@@ -114,7 +110,6 @@
                 a{
                     color: map-get($boton, color-texto);
                     text-decoration: none;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 20px;
                     font-weight: 600;
                     &:active{
@@ -131,10 +126,10 @@
 .cuidado{
     width: 100%;
     height: 984px;
+    font-family: 'Montserrat', sans-serif;
     h2{   
         color: nth($colores, 4);
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
         font-size: 48px;
         font-weight: 600;
         padding-top: 80px;
@@ -154,7 +149,6 @@
             h3{
                 color: nth($colores, 4);
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 32px;
                 font-weight: 600;
                 padding-top:15px;
@@ -163,7 +157,6 @@
             p{
                 color: nth($colores, 4);
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
                 padding-top:15px;
@@ -185,7 +178,6 @@
                 a{
                     color: map-get($boton, color-texto);
                     text-decoration: none;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 20px;
                     font-weight: 600;
                     &:active{
@@ -202,11 +194,11 @@
 .plantas{
     width: 100%;
     height: auto;
+    font-family: 'Montserrat', sans-serif;
     @extend %flex-column;
     h1{
         color: nth($colores, 4);
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
         font-size: 48px;
         font-weight: 600;
         padding-top: 80px;
@@ -251,7 +243,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 24px;
                     font-weight: 600;
                     padding-top: 30px;
@@ -260,7 +251,6 @@
                 p{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: 400;
                     width: 466px;
@@ -295,7 +285,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 24px;
                     font-weight: 600;
                     padding-top: 30px;
@@ -304,7 +293,6 @@
                 p{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: 400;
                     width: 466px;
@@ -336,7 +324,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 24px;
                     font-weight: 600;
                     padding-top: 30px;
@@ -345,7 +332,6 @@
                 p{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: 400;
                     width: 466px;
@@ -377,7 +363,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 24px;
                     font-weight: 600;
                     padding-top: 30px;
@@ -386,7 +371,6 @@
                 p{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: 400;
                     width: 466px;
@@ -418,7 +402,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 24px;
                     font-weight: 600;
                     padding-top: 30px;
@@ -427,7 +410,6 @@
                 p{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: 400;
                     width: 466px;
@@ -459,7 +441,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 24px;
                     font-weight: 600;
                     padding-top: 30px;
@@ -468,7 +449,6 @@
                 p{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: 400;
                     width: 466px;
@@ -500,7 +480,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 24px;
                     font-weight: 600;
                     padding-top: 30px;
@@ -509,7 +488,6 @@
                 p{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: 400;
                     width: 466px;
@@ -541,7 +519,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 24px;
                     font-weight: 600;
                     padding-top: 30px;
@@ -550,7 +527,6 @@
                 p{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: 400;
                     width: 466px;
@@ -574,7 +550,6 @@
             h3{
                 color: nth($colores, 4);
                 text-align: center;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 24px;
                 font-weight: 500;
                 margin-bottom: 0px;
@@ -588,6 +563,7 @@
 .cuidados{
     width: 100%;
     height: auto;
+    font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-template-rows: 8% 30.6% 30.6% 30.6%;
     grid-template-columns: 1fr;
@@ -600,7 +576,6 @@
         grid-area: cuidados-h1;
         color: nth($colores, 4);
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
         font-size: 48px;
         font-weight: 600;
         padding-top: 80px;
@@ -615,7 +590,6 @@
         border-top-left-radius:229px;
         color: nth($colores, 4);
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
         @extend %flex-row;
@@ -634,7 +608,6 @@
                 h2{
                     color: #4B6728;
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 32px;
                     font-weight: 600;
                     margin-bottom: 0px;
@@ -658,7 +631,6 @@
         border-bottom-right-radius:229px;
         color: nth($colores, 4);
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
         @extend %flex-row;
@@ -680,7 +652,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 32px;
                     font-weight: 600;
                     margin-bottom: 0px;
@@ -697,7 +668,6 @@
         border-top-left-radius:229px;
         color: nth($colores, 4);
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
         @extend %flex-row;
@@ -716,7 +686,6 @@
                 h2{
                     color: nth($colores, 4);
                     text-align: left;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 32px;
                     font-weight: 600;
                     margin-bottom: 0px;
@@ -736,27 +705,30 @@
 /*------NOSOTROS------*/
 
 .seccion-nosotros{
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
+    margin-bottom: 250px;
     .nosotros{
         width: 85%;
         display: grid;
-        grid-template-rows: 10% 40% 20% 20%;
+        grid-template-rows: 10% 30% 30% 30%;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
         "nosotros-h1 nosotros-h1"
-        "historia mision"
-        "vision imagen-nosotros"
-        "valores imagen-nosotros";
+        "historia imagen-nosotros"
+        "imagen-mision mision"
+        "valores imagen-valores";
+        row-gap: 50px;
         justify-items: center;
         align-items: center;
         .nosotros-h1{   
             color: nth($colores, 4);
             text-align: center;
-            font-family: 'Montserrat', sans-serif;
             font-size: 48px;
             font-weight: 600;
-            margin-top: 80px;
+            margin-top: 50px;
+            margin-bottom: 0px;
             grid-area: nosotros-h1;
         }
         .historia{
@@ -765,11 +737,8 @@
             grid-area: historia;
             display: flex;
             flex-direction: column;
-            align-self: self-start;
-            margin-top: 80px;
             h2{
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 32px;
                 font-weight: 600;
                 padding-top: 30px;
@@ -777,7 +746,6 @@
             }
             p{
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
             }
@@ -788,12 +756,8 @@
             grid-area: mision;
             display: flex;
             flex-direction: column;
-            justify-items: center;
-            align-self: self-start;
-            margin-top: 80px;
             h2{
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 32px;
                 font-weight: 600;
                 padding-top: 30px;
@@ -801,30 +765,6 @@
             }
             p{
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-            }
-        }
-        .vision{
-            width: 80%;
-            color: nth($colores, 4);
-            grid-area: vision;
-            display: flex;
-            flex-direction: column;
-            margin-top: 50px;
-            margin-bottom: 100px;
-            h2{
-                text-align: left;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 32px;
-                font-weight: 600;
-                padding-top: 30px;
-                padding-bottom: 30px;
-            }
-            p{
-                text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
             }
@@ -835,11 +775,8 @@
             grid-area: valores;
             display: flex;
             flex-direction: column;
-            margin-top: 100px;
-            margin-bottom: 100px;
             h2{
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 32px;
                 font-weight: 600;
                 padding-top: 30px;
@@ -847,17 +784,33 @@
             }
             p{
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
+            }
+            ul{
+                li{
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-top: 15px;
+                }
             }
         }
         .imagen-nosotros{
             grid-area: imagen-nosotros;
-            width: 80%;
             .imagen-nosotros-desktop{
-                width: 100%;
-                height: auto;
+                border-radius: 15px;
+            }            
+        }
+        .imagen-mision{
+            grid-area: imagen-mision; 
+            .imagen-mision-desktop{
+                border-radius: 15px;
+            }
+        }
+        .imagen-valores{
+            grid-area: imagen-valores;
+            .imagen-valores-desktop{
+                border-radius: 15px;
             }
         }
     }
@@ -868,6 +821,7 @@
 .seccion-contacto{
     width: 100%;
     height: auto;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -883,7 +837,6 @@
         .contacto-h1{
             color: nth($colores, 4);
             text-align: center;
-            font-family: 'Montserrat', sans-serif;
             font-size: 48px;
             font-weight: 600;
             padding-top: 80px;
@@ -900,7 +853,6 @@
             h2{
                 color: nth($colores, 4);
                 text-align: left;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 24px;
                 font-weight: 500;
                 margin-left: 300px;
@@ -914,7 +866,6 @@
                     label{
                         color: nth($colores, 4);
                         text-align: left;
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 15px;
                         font-weight: 500;
                         padding-top: 20px;
@@ -928,7 +879,6 @@
                         width: 100%;
                         padding-left: 12px;
                         color: nth($colores, 4);
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 14px;
                         font-weight: 400;
                     }
@@ -939,7 +889,6 @@
                     label{
                         color: nth($colores, 4);
                         text-align: left;
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 15px;
                         font-weight: 500;
                         padding-top: 20px;
@@ -953,7 +902,6 @@
                         width: 100%;
                         padding-left: 12px;
                         color: nth($colores, 4);
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 14px;
                         font-weight: 400;
                     }
@@ -964,7 +912,6 @@
                     label{
                         color: nth($colores, 4);
                         text-align: left;
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 15px;
                         font-weight: 500;
                         padding-top: 20px;
@@ -978,7 +925,6 @@
                         width: 100%;
                         padding-left: 12px;
                         color: nth($colores, 4);
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 14px;
                         font-weight: 400;
                     }
@@ -989,7 +935,6 @@
                     label{
                         color: nth($colores, 4);
                         text-align: left;
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 15px;
                         font-weight: 500;
                         padding-top: 20px;
@@ -1004,7 +949,6 @@
                         padding-left: 12px;
                         max-height: 150px;
                         color: nth($colores, 4);
-                        font-family: 'Montserrat', sans-serif;
                         font-size: 14px;
                         font-weight: 400;
                     }
@@ -1012,7 +956,6 @@
                 #enviar{
                     color: nth($colores,4);
                     text-align: center;
-                    font-family: 'Montserrat', sans-serif;
                     font-size: 20px;
                     font-weight: 600;
                     background-color: nth($colores,2);
@@ -1051,8 +994,6 @@
             justify-content: center;
             align-items: center;
             iframe{
-                max-width: 100%;
-                max-height: 100%;
                 width: 100%;
                 height: 100%;
             }

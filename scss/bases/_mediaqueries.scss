@@ -616,20 +616,17 @@
                     font-size: 18px;
                 }
             }
-            .vision{
-                h2{
-                    font-size: 28px;
-                }
-                p{
-                    font-size: 18px;
-                }
-            }
             .valores{
                 h2{
                     font-size: 28px;
                 }
                 p{
                     font-size: 18px;
+                }
+                ul{
+                    li{
+                        font-size: 18px;
+                    }
                 }
             }
         }
@@ -932,15 +929,21 @@
     .seccion-nosotros{
         .nosotros{
             width: 80%;
-            grid-template-rows: 10% 20% 20% 15% 15% 20%;
+            margin-top: 50px;
+            grid-template-rows: 4% 16% 16% 16% 16% 16% 16%;
             grid-template-columns: 100%;
             grid-template-areas:
             "nosotros-h1"
             "historia"
+            "imagen-nosotros"
             "mision"
-            "vision"
-            "valores" 
-            "imagen-nosotros";
+            "imagen-mision"
+            "valores"
+            "imagen-valores";
+            row-gap: 30px;
+            .nosotros-h1{
+                margin-top: 0px;
+            }
             .historia{
                 width: 100%;
                 h2{
@@ -961,17 +964,6 @@
                     margin-bottom: 0px;
                 }
             }
-            .vision{
-                width: 100%;
-                margin-bottom: 0px;
-                h2{
-                    text-align: center;
-                }
-                p{
-                    text-align: center;
-                    margin-bottom: 0px;
-                }
-            }
             .valores{
                 width: 100%;
                 h2{
@@ -980,16 +972,6 @@
                 p{
                     text-align: center;
                     margin-bottom: 0px;
-                }
-            }
-            .imagen-nosotros{
-                display: flex;
-                justify-content: center;
-                margin-top: 40px;
-                margin-bottom: 80px;
-                .imagen-nosotros-desktop{
-                    width: 307px;
-                    height: 385px;
                 }
             }
         }
@@ -1076,29 +1058,12 @@
                     margin-bottom: 0px;
                 }
             }
-            .vision{
-                h2{
-                    text-align: center;
-                }
-                p{
-                    text-align: center;
-                    margin-bottom: 100px;
-                }
-            }
             .valores{
                 h2{
                     text-align: center;
                 }
                 p{
                     text-align: center;
-                    margin-bottom: 100px;
-                }
-            }
-            .imagen-nosotros{
-                justify-content: center;
-                .imagen-nosotros-desktop{
-                    margin-top: 100px;
-                    margin-bottom: 50px;
                 }
             }
         }
@@ -1280,17 +1245,6 @@
             }
         }
     }
-
-
-
-    .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop{
-            width: 307px;
-            height: 385px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-        }
-        
-
 
 
     .seccion-contacto .contacto .h2yformulario{
@@ -1520,10 +1474,6 @@
     .foto-carousel{
         width: 422px;
         height: 245px;
-    }
-
-    .seccion-nosotros .imagen-nosotros .imagen-nosotros-desktop{
-        margin-bottom: 0px;
     }
 }
 
@@ -2062,50 +2012,46 @@
                 margin-top: 0px;
                 h2{
                     font-size: 20px;
-                    text-align: center;
                 }
                 p{
                     font-size: 14px;
-                    text-align: center;
                 }
             }
             .mision{
-                margin-top: 10px;
                 h2{
                     font-size: 20px;
-                    text-align: center;
                 }
                 p{
                     font-size: 14px;
-                    text-align: center;
-                }
-            }
-            .vision{
-                margin-top: 50px;
-                margin-bottom: 50px;
-                h2{
-                    font-size: 20px;
-                    text-align: center;
-                }
-                p{
-                    font-size: 14px;
-                    text-align: center;
                 }
             }
             .valores{
-                margin-top: 50px;
                 h2{
                     font-size: 20px;
-                    text-align: center;
                 }
                 p{
                     font-size: 14px;
-                    text-align: center;
+                }
+                ul{
+                    li{
+                        font-size: 14px;
+                    }
                 }
             }
             .imagen-nosotros{
-                margin-bottom: 50px;
                 .imagen-nosotros-desktop{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .imagen-mision{
+                .imagen-mision-desktop{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .imagen-valores{
+                .imagen-valores-desktop{
                     width: 100%;
                     height: auto;
                 }
@@ -2229,49 +2175,5 @@
         width: 317px;
         height: 190px;
     }
-
-    .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop{
-        margin-top: 0px;
-    }
 }
 
-
-@media (max-width: 395px){
-    
-    .seccion-nosotros{
-        .nosotros{
-            .historia{
-                margin-top: 0px;
-                p{
-                    margin-bottom: 100px;
-                }
-            }
-            .mision{
-                margin-top: 30px;
-                p{
-                    margin-bottom: 50px;
-                }
-            }
-            .vision{
-                margin-top: 50px;
-                p{
-                    margin-bottom: 0px;
-                }
-            }
-            .valores{
-                margin-top: 0px;
-                margin-bottom: 0px;
-                p{
-                    margin-bottom: 50px;
-                }
-            }
-            .imagen-nosotros{
-                width: 90%;
-                .imagen-nosotros-desktop{
-                    width: 100%;
-                    height: auto;
-                }
-            }
-        }
-    }
-}

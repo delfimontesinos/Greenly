@@ -86,7 +86,8 @@
 
 .foto-carousel {
   width: 622px;
-  height: 445px; }
+  height: 445px;
+  border-radius: 15px; }
 
 /*----------HEADER----------*/
 header {
@@ -117,6 +118,7 @@ header nav {
 .hero {
   width: 100%;
   height: 800px;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   background-image: url(../img/hero-image.webp);
   background-size: cover;
@@ -124,7 +126,6 @@ header nav {
   background-repeat: no-repeat; }
   .hero h1 {
     color: #ECFCF0;
-    font-family: 'Montserrat', sans-serif;
     font-size: 75px;
     font-weight: 600;
     width: 90%;
@@ -133,7 +134,6 @@ header nav {
     margin-bottom: 0px; }
   .hero p {
     color: #ECFCF0;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -152,19 +152,18 @@ header nav {
     .hero .boton-ver-plantas a {
       color: #4B6728;
       text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
       font-size: 20px;
       font-weight: 600; }
 
 /*--Reconectemos--*/
 .reconectemos {
   width: 100%;
-  height: 984px; }
+  height: 984px;
+  font-family: 'Montserrat', sans-serif; }
   .reconectemos h2 {
     color: #4B6728;
     text-align: center;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-weight: 600;
     padding-top: 80px;
@@ -187,7 +186,6 @@ header nav {
       .reconectemos .contenido-reconectemos .texto-reconectemos h3 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 32px;
         font-weight: 600;
         padding-top: 15px;
@@ -195,7 +193,6 @@ header nav {
       .reconectemos .contenido-reconectemos .texto-reconectemos p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
         padding-top: 15px;
@@ -213,7 +210,6 @@ header nav {
         .reconectemos .contenido-reconectemos .texto-reconectemos .boton-contenedor a {
           color: #4B6728;
           text-decoration: none;
-          font-family: 'Montserrat', sans-serif;
           font-size: 20px;
           font-weight: 600; }
           .reconectemos .contenido-reconectemos .texto-reconectemos .boton-contenedor a:active {
@@ -222,11 +218,11 @@ header nav {
 /*--Cuidado de las plantas - index--*/
 .cuidado {
   width: 100%;
-  height: 984px; }
+  height: 984px;
+  font-family: 'Montserrat', sans-serif; }
   .cuidado h2 {
     color: #4B6728;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-weight: 600;
     padding-top: 80px;
@@ -249,7 +245,6 @@ header nav {
       .cuidado .contenido-cuidado .texto-cuidado h3 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 32px;
         font-weight: 600;
         padding-top: 15px;
@@ -257,7 +252,6 @@ header nav {
       .cuidado .contenido-cuidado .texto-cuidado p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
         padding-top: 15px;
@@ -275,7 +269,6 @@ header nav {
         .cuidado .contenido-cuidado .texto-cuidado .boton-contenedor a {
           color: #4B6728;
           text-decoration: none;
-          font-family: 'Montserrat', sans-serif;
           font-size: 20px;
           font-weight: 600; }
           .cuidado .contenido-cuidado .texto-cuidado .boton-contenedor a:active {
@@ -284,11 +277,11 @@ header nav {
 /*------PLANTAS------*/
 .plantas {
   width: 100%;
-  height: auto; }
+  height: auto;
+  font-family: 'Montserrat', sans-serif; }
   .plantas h1 {
     color: #4B6728;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-weight: 600;
     padding-top: 80px;
@@ -323,7 +316,6 @@ header nav {
       .plantas .plantas-cards .card-lirio-paz .cards-texto h2 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 600;
         padding-top: 30px;
@@ -331,7 +323,6 @@ header nav {
       .plantas .plantas-cards .card-lirio-paz .cards-texto p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 400;
         width: 466px; }
@@ -357,7 +348,6 @@ header nav {
       .plantas .plantas-cards .card-peperomia .cards-texto h2 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 600;
         padding-top: 30px;
@@ -365,7 +355,6 @@ header nav {
       .plantas .plantas-cards .card-peperomia .cards-texto p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 400;
         width: 466px; }
@@ -389,7 +378,6 @@ header nav {
       .plantas .plantas-cards .card-lirio-verde .cards-texto h2 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 600;
         padding-top: 30px;
@@ -397,7 +385,6 @@ header nav {
       .plantas .plantas-cards .card-lirio-verde .cards-texto p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 400;
         width: 466px; }
@@ -421,7 +408,6 @@ header nav {
       .plantas .plantas-cards .card-monstera .cards-texto h2 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 600;
         padding-top: 30px;
@@ -429,7 +415,6 @@ header nav {
       .plantas .plantas-cards .card-monstera .cards-texto p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 400;
         width: 466px; }
@@ -453,7 +438,6 @@ header nav {
       .plantas .plantas-cards .card-higuera .cards-texto h2 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 600;
         padding-top: 30px;
@@ -461,7 +445,6 @@ header nav {
       .plantas .plantas-cards .card-higuera .cards-texto p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 400;
         width: 466px; }
@@ -485,7 +468,6 @@ header nav {
       .plantas .plantas-cards .card-orquidea .cards-texto h2 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 600;
         padding-top: 30px;
@@ -493,7 +475,6 @@ header nav {
       .plantas .plantas-cards .card-orquidea .cards-texto p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 400;
         width: 466px; }
@@ -517,7 +498,6 @@ header nav {
       .plantas .plantas-cards .card-sansivieria .cards-texto h2 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 600;
         padding-top: 30px;
@@ -525,7 +505,6 @@ header nav {
       .plantas .plantas-cards .card-sansivieria .cards-texto p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 400;
         width: 466px; }
@@ -549,7 +528,6 @@ header nav {
       .plantas .plantas-cards .card-suculenta .cards-texto h2 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 600;
         padding-top: 30px;
@@ -557,7 +535,6 @@ header nav {
       .plantas .plantas-cards .card-suculenta .cards-texto p {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 400;
         width: 466px; }
@@ -580,7 +557,6 @@ header nav {
       .plantas .visita .contenido-visita h3 {
         color: #4B6728;
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 500;
         margin-bottom: 0px; }
@@ -589,6 +565,7 @@ header nav {
 .cuidados {
   width: 100%;
   height: auto;
+  font-family: 'Montserrat', sans-serif;
   display: grid;
   grid-template-rows: 8% 30.6% 30.6% 30.6%;
   grid-template-columns: 1fr;
@@ -597,7 +574,6 @@ header nav {
     grid-area: cuidados-h1;
     color: #4B6728;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-weight: 600;
     padding-top: 80px;
@@ -611,7 +587,6 @@ header nav {
     border-top-left-radius: 229px;
     color: #4B6728;
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin-top: 100px;
@@ -632,7 +607,6 @@ header nav {
         .cuidados .riego .riego-texto .iconoyriego h2 {
           color: #4B6728;
           text-align: left;
-          font-family: 'Montserrat', sans-serif;
           font-size: 32px;
           font-weight: 600;
           margin-bottom: 0px; }
@@ -650,7 +624,6 @@ header nav {
     border-bottom-right-radius: 229px;
     color: #4B6728;
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin-top: 100px;
@@ -673,7 +646,6 @@ header nav {
         .cuidados .luz .luz-texto .iconoyluz h2 {
           color: #4B6728;
           text-align: left;
-          font-family: 'Montserrat', sans-serif;
           font-size: 32px;
           font-weight: 600;
           margin-bottom: 0px; }
@@ -686,7 +658,6 @@ header nav {
     border-top-left-radius: 229px;
     color: #4B6728;
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin-top: 100px;
@@ -707,7 +678,6 @@ header nav {
         .cuidados .temperatura .temperatura-texto .iconoytemperatura h2 {
           color: #4B6728;
           text-align: left;
-          font-family: 'Montserrat', sans-serif;
           font-size: 32px;
           font-weight: 600;
           margin-bottom: 0px; }
@@ -719,42 +689,41 @@ header nav {
 
 /*------NOSOTROS------*/
 .seccion-nosotros {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 250px; }
   .seccion-nosotros .nosotros {
     width: 85%;
     display: grid;
-    grid-template-rows: 10% 40% 20% 20%;
+    grid-template-rows: 10% 30% 30% 30%;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "nosotros-h1 nosotros-h1" "historia mision" "vision imagen-nosotros" "valores imagen-nosotros";
+    grid-template-areas: "nosotros-h1 nosotros-h1" "historia imagen-nosotros" "imagen-mision mision" "valores imagen-valores";
+    row-gap: 50px;
     justify-items: center;
     align-items: center; }
     .seccion-nosotros .nosotros .nosotros-h1 {
       color: #4B6728;
       text-align: center;
-      font-family: 'Montserrat', sans-serif;
       font-size: 48px;
       font-weight: 600;
-      margin-top: 80px;
+      margin-top: 50px;
+      margin-bottom: 0px;
       grid-area: nosotros-h1; }
     .seccion-nosotros .nosotros .historia {
       width: 80%;
       color: #4B6728;
       grid-area: historia;
       display: flex;
-      flex-direction: column;
-      align-self: self-start;
-      margin-top: 80px; }
+      flex-direction: column; }
       .seccion-nosotros .nosotros .historia h2 {
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 32px;
         font-weight: 600;
         padding-top: 30px;
         padding-bottom: 30px; }
       .seccion-nosotros .nosotros .historia p {
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
     .seccion-nosotros .nosotros .mision {
@@ -762,40 +731,15 @@ header nav {
       color: #4B6728;
       grid-area: mision;
       display: flex;
-      flex-direction: column;
-      justify-items: center;
-      align-self: self-start;
-      margin-top: 80px; }
+      flex-direction: column; }
       .seccion-nosotros .nosotros .mision h2 {
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 32px;
         font-weight: 600;
         padding-top: 30px;
         padding-bottom: 30px; }
       .seccion-nosotros .nosotros .mision p {
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 400; }
-    .seccion-nosotros .nosotros .vision {
-      width: 80%;
-      color: #4B6728;
-      grid-area: vision;
-      display: flex;
-      flex-direction: column;
-      margin-top: 50px;
-      margin-bottom: 100px; }
-      .seccion-nosotros .nosotros .vision h2 {
-        text-align: left;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 32px;
-        font-weight: 600;
-        padding-top: 30px;
-        padding-bottom: 30px; }
-      .seccion-nosotros .nosotros .vision p {
-        text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
     .seccion-nosotros .nosotros .valores {
@@ -803,32 +747,39 @@ header nav {
       color: #4B6728;
       grid-area: valores;
       display: flex;
-      flex-direction: column;
-      margin-top: 100px;
-      margin-bottom: 100px; }
+      flex-direction: column; }
       .seccion-nosotros .nosotros .valores h2 {
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 32px;
         font-weight: 600;
         padding-top: 30px;
         padding-bottom: 30px; }
       .seccion-nosotros .nosotros .valores p {
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
+      .seccion-nosotros .nosotros .valores ul li {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 15px; }
     .seccion-nosotros .nosotros .imagen-nosotros {
-      grid-area: imagen-nosotros;
-      width: 80%; }
+      grid-area: imagen-nosotros; }
       .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop {
-        width: 100%;
-        height: auto; }
+        border-radius: 15px; }
+    .seccion-nosotros .nosotros .imagen-mision {
+      grid-area: imagen-mision; }
+      .seccion-nosotros .nosotros .imagen-mision .imagen-mision-desktop {
+        border-radius: 15px; }
+    .seccion-nosotros .nosotros .imagen-valores {
+      grid-area: imagen-valores; }
+      .seccion-nosotros .nosotros .imagen-valores .imagen-valores-desktop {
+        border-radius: 15px; }
 
 /*------CONTACTO------*/
 .seccion-contacto {
   width: 100%;
   height: auto;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
@@ -841,7 +792,6 @@ header nav {
     .seccion-contacto .contacto .contacto-h1 {
       color: #4B6728;
       text-align: center;
-      font-family: 'Montserrat', sans-serif;
       font-size: 48px;
       font-weight: 600;
       padding-top: 80px;
@@ -857,7 +807,6 @@ header nav {
       .seccion-contacto .contacto .h2yformulario h2 {
         color: #4B6728;
         text-align: left;
-        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 500;
         margin-left: 300px;
@@ -870,7 +819,6 @@ header nav {
           .seccion-contacto .contacto .h2yformulario .formulario .nombre label {
             color: #4B6728;
             text-align: left;
-            font-family: 'Montserrat', sans-serif;
             font-size: 15px;
             font-weight: 500;
             padding-top: 20px;
@@ -883,7 +831,6 @@ header nav {
             width: 100%;
             padding-left: 12px;
             color: #4B6728;
-            font-family: 'Montserrat', sans-serif;
             font-size: 14px;
             font-weight: 400; }
         .seccion-contacto .contacto .h2yformulario .formulario .correo-formulario {
@@ -892,7 +839,6 @@ header nav {
           .seccion-contacto .contacto .h2yformulario .formulario .correo-formulario label {
             color: #4B6728;
             text-align: left;
-            font-family: 'Montserrat', sans-serif;
             font-size: 15px;
             font-weight: 500;
             padding-top: 20px;
@@ -905,7 +851,6 @@ header nav {
             width: 100%;
             padding-left: 12px;
             color: #4B6728;
-            font-family: 'Montserrat', sans-serif;
             font-size: 14px;
             font-weight: 400; }
         .seccion-contacto .contacto .h2yformulario .formulario .telefono-formulario {
@@ -914,7 +859,6 @@ header nav {
           .seccion-contacto .contacto .h2yformulario .formulario .telefono-formulario label {
             color: #4B6728;
             text-align: left;
-            font-family: 'Montserrat', sans-serif;
             font-size: 15px;
             font-weight: 500;
             padding-top: 20px;
@@ -927,7 +871,6 @@ header nav {
             width: 100%;
             padding-left: 12px;
             color: #4B6728;
-            font-family: 'Montserrat', sans-serif;
             font-size: 14px;
             font-weight: 400; }
         .seccion-contacto .contacto .h2yformulario .formulario .mensaje {
@@ -936,7 +879,6 @@ header nav {
           .seccion-contacto .contacto .h2yformulario .formulario .mensaje label {
             color: #4B6728;
             text-align: left;
-            font-family: 'Montserrat', sans-serif;
             font-size: 15px;
             font-weight: 500;
             padding-top: 20px;
@@ -950,13 +892,11 @@ header nav {
             padding-left: 12px;
             max-height: 150px;
             color: #4B6728;
-            font-family: 'Montserrat', sans-serif;
             font-size: 14px;
             font-weight: 400; }
         .seccion-contacto .contacto .h2yformulario .formulario #enviar {
           color: #4B6728;
           text-align: center;
-          font-family: 'Montserrat', sans-serif;
           font-size: 20px;
           font-weight: 600;
           background-color: #FFDA57;
@@ -987,8 +927,6 @@ header nav {
       justify-content: center;
       align-items: center; }
       .seccion-contacto .contacto .mapa iframe {
-        max-width: 100%;
-        max-height: 100%;
         width: 100%;
         height: 100%; }
 
@@ -1427,13 +1365,11 @@ footer {
     font-size: 28px; }
   .seccion-nosotros .nosotros .mision p {
     font-size: 18px; }
-  .seccion-nosotros .nosotros .vision h2 {
-    font-size: 28px; }
-  .seccion-nosotros .nosotros .vision p {
-    font-size: 18px; }
   .seccion-nosotros .nosotros .valores h2 {
     font-size: 28px; }
   .seccion-nosotros .nosotros .valores p {
+    font-size: 18px; }
+  .seccion-nosotros .nosotros .valores ul li {
     font-size: 18px; }
   .seccion-contacto .contacto .contacto-h1 {
     font-size: 40px; }
@@ -1608,9 +1544,13 @@ footer {
         margin-bottom: 60px; }
   .seccion-nosotros .nosotros {
     width: 80%;
-    grid-template-rows: 10% 20% 20% 15% 15% 20%;
+    margin-top: 50px;
+    grid-template-rows: 4% 16% 16% 16% 16% 16% 16%;
     grid-template-columns: 100%;
-    grid-template-areas: "nosotros-h1" "historia" "mision" "vision" "valores"  "imagen-nosotros"; }
+    grid-template-areas: "nosotros-h1" "historia" "imagen-nosotros" "mision" "imagen-mision" "valores" "imagen-valores";
+    row-gap: 30px; }
+    .seccion-nosotros .nosotros .nosotros-h1 {
+      margin-top: 0px; }
     .seccion-nosotros .nosotros .historia {
       width: 100%; }
       .seccion-nosotros .nosotros .historia h2 {
@@ -1625,14 +1565,6 @@ footer {
       .seccion-nosotros .nosotros .mision p {
         text-align: center;
         margin-bottom: 0px; }
-    .seccion-nosotros .nosotros .vision {
-      width: 100%;
-      margin-bottom: 0px; }
-      .seccion-nosotros .nosotros .vision h2 {
-        text-align: center; }
-      .seccion-nosotros .nosotros .vision p {
-        text-align: center;
-        margin-bottom: 0px; }
     .seccion-nosotros .nosotros .valores {
       width: 100%; }
       .seccion-nosotros .nosotros .valores h2 {
@@ -1640,14 +1572,6 @@ footer {
       .seccion-nosotros .nosotros .valores p {
         text-align: center;
         margin-bottom: 0px; }
-    .seccion-nosotros .nosotros .imagen-nosotros {
-      display: flex;
-      justify-content: center;
-      margin-top: 40px;
-      margin-bottom: 80px; }
-      .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop {
-        width: 307px;
-        height: 385px; }
   .seccion-contacto .contacto {
     grid-template-rows: 10% 40% 25% 25%;
     grid-template-columns: 1fr;
@@ -1692,21 +1616,10 @@ footer {
   .seccion-nosotros .nosotros .mision p {
     text-align: center;
     margin-bottom: 0px; }
-  .seccion-nosotros .nosotros .vision h2 {
-    text-align: center; }
-  .seccion-nosotros .nosotros .vision p {
-    text-align: center;
-    margin-bottom: 100px; }
   .seccion-nosotros .nosotros .valores h2 {
     text-align: center; }
   .seccion-nosotros .nosotros .valores p {
-    text-align: center;
-    margin-bottom: 100px; }
-  .seccion-nosotros .nosotros .imagen-nosotros {
-    justify-content: center; }
-    .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop {
-      margin-top: 100px;
-      margin-bottom: 50px; }
+    text-align: center; }
   .seccion-contacto .contacto .h2yformulario {
     margin-top: 80px; }
     .seccion-contacto .contacto .h2yformulario h2 {
@@ -1809,11 +1722,6 @@ footer {
     width: 660px; }
     .plantas .visita .contenido-visita h3 {
       font-size: 20px; }
-  .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop {
-    width: 307px;
-    height: 385px;
-    margin-top: 0px;
-    margin-bottom: 0px; }
   .seccion-contacto .contacto .h2yformulario {
     margin-bottom: 0px; }
   footer .contactanos h3 {
@@ -1963,9 +1871,7 @@ footer {
 @media (max-width: 576px) {
   .foto-carousel {
     width: 422px;
-    height: 245px; }
-  .seccion-nosotros .imagen-nosotros .imagen-nosotros-desktop {
-    margin-bottom: 0px; } }
+    height: 245px; } }
 
 /*----------MOBILE----------*/
 @media (max-width: 480px) {
@@ -2338,41 +2244,28 @@ footer {
   .seccion-nosotros .nosotros .historia {
     margin-top: 0px; }
     .seccion-nosotros .nosotros .historia h2 {
-      font-size: 20px;
-      text-align: center; }
+      font-size: 20px; }
     .seccion-nosotros .nosotros .historia p {
-      font-size: 14px;
-      text-align: center; }
-  .seccion-nosotros .nosotros .mision {
-    margin-top: 10px; }
-    .seccion-nosotros .nosotros .mision h2 {
-      font-size: 20px;
-      text-align: center; }
-    .seccion-nosotros .nosotros .mision p {
-      font-size: 14px;
-      text-align: center; }
-  .seccion-nosotros .nosotros .vision {
-    margin-top: 50px;
-    margin-bottom: 50px; }
-    .seccion-nosotros .nosotros .vision h2 {
-      font-size: 20px;
-      text-align: center; }
-    .seccion-nosotros .nosotros .vision p {
-      font-size: 14px;
-      text-align: center; }
-  .seccion-nosotros .nosotros .valores {
-    margin-top: 50px; }
-    .seccion-nosotros .nosotros .valores h2 {
-      font-size: 20px;
-      text-align: center; }
-    .seccion-nosotros .nosotros .valores p {
-      font-size: 14px;
-      text-align: center; }
-  .seccion-nosotros .nosotros .imagen-nosotros {
-    margin-bottom: 50px; }
-    .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop {
-      width: 100%;
-      height: auto; }
+      font-size: 14px; }
+  .seccion-nosotros .nosotros .mision h2 {
+    font-size: 20px; }
+  .seccion-nosotros .nosotros .mision p {
+    font-size: 14px; }
+  .seccion-nosotros .nosotros .valores h2 {
+    font-size: 20px; }
+  .seccion-nosotros .nosotros .valores p {
+    font-size: 14px; }
+  .seccion-nosotros .nosotros .valores ul li {
+    font-size: 14px; }
+  .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop {
+    width: 100%;
+    height: auto; }
+  .seccion-nosotros .nosotros .imagen-mision .imagen-mision-desktop {
+    width: 100%;
+    height: auto; }
+  .seccion-nosotros .nosotros .imagen-valores .imagen-valores-desktop {
+    width: 100%;
+    height: auto; }
   .seccion-contacto .contacto {
     height: auto;
     grid-template-rows: 10% 40% 26% 24%; }
@@ -2438,30 +2331,4 @@ footer {
 @media (max-width: 450px) {
   .foto-carousel {
     width: 317px;
-    height: 190px; }
-  .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop {
-    margin-top: 0px; } }
-
-@media (max-width: 395px) {
-  .seccion-nosotros .nosotros .historia {
-    margin-top: 0px; }
-    .seccion-nosotros .nosotros .historia p {
-      margin-bottom: 100px; }
-  .seccion-nosotros .nosotros .mision {
-    margin-top: 30px; }
-    .seccion-nosotros .nosotros .mision p {
-      margin-bottom: 50px; }
-  .seccion-nosotros .nosotros .vision {
-    margin-top: 50px; }
-    .seccion-nosotros .nosotros .vision p {
-      margin-bottom: 0px; }
-  .seccion-nosotros .nosotros .valores {
-    margin-top: 0px;
-    margin-bottom: 0px; }
-    .seccion-nosotros .nosotros .valores p {
-      margin-bottom: 50px; }
-  .seccion-nosotros .nosotros .imagen-nosotros {
-    width: 90%; }
-    .seccion-nosotros .nosotros .imagen-nosotros .imagen-nosotros-desktop {
-      width: 100%;
-      height: auto; } }
+    height: 190px; } }

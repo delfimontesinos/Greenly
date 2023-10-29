@@ -1,5 +1,5 @@
 /*------INDEX------*/
-/*--Hero--*/
+/*--Sección Hero--*/
 
 .hero{
     width: 100%;
@@ -50,7 +50,7 @@
     }
 }
 
-/*--Reconectemos--*/
+/*--Sección Reconectemos--*/
 
 .reconectemos{
     width: 100%;
@@ -121,7 +121,7 @@
     }
 }
 
-/*--Cuidado de las plantas - index--*/
+/*--Sección Cuidado de las plantas - index--*/
 
 .cuidado{
     width: 100%;
@@ -189,7 +189,7 @@
     }
 }
 
-/*------PLANTAS------*/
+/*------PÁGINA PLANTAS------*/
 
 .plantas{
     width: 100%;
@@ -539,9 +539,7 @@
         height: 91px;
         background-color: nth($colores, 2);
         margin-top: 160px;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
+        @extend %flex-row; 
         .contenido-visita{
             width: 760px;
             @include flex (flex, row, space-around, center);
@@ -558,7 +556,7 @@
     }
 }
 
-/*------CUIDADOS------*/
+/*------PÁGINA CUIDADOS------*/
 
 .cuidados{
     width: 100%;
@@ -702,7 +700,7 @@
     }
 }
 
-/*------NOSOTROS------*/
+/*------PÁGINA NOSOTROS------*/
 
 .seccion-nosotros{
     font-family: 'Montserrat', sans-serif;
@@ -816,7 +814,7 @@
     }
 }
 
-/*------CONTACTO------*/
+/*------PÁGINA CONTACTO------*/
 
 .seccion-contacto{
     width: 100%;
@@ -846,7 +844,7 @@
         .h2yformulario{
             grid-area: h2yformulario;
             margin-bottom: 50px;
-            width: 90%;
+            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -855,11 +853,12 @@
                 text-align: left;
                 font-size: 24px;
                 font-weight: 500;
-                margin-left: 300px;
+                margin-left: 200px;
                 margin-top: 100px;
             }
             .formulario{
                 padding-left: 200px;
+                width: 90%;
                 .nombre{
                     display: flex;
                     flex-direction: column;

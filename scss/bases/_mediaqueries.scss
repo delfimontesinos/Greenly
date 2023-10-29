@@ -166,7 +166,7 @@
 
     .seccion-contacto .contacto .h2yformulario{
         h2{
-            margin-left: 250px;
+            margin-left: 150px;
         }
         .formulario{
             padding-left: 150px;
@@ -315,7 +315,7 @@
     .seccion-contacto .contacto{
         .h2yformulario{
             h2{
-                margin-left: 155px;
+                margin-left: 80px;
             }
             .formulario{
                 padding-left: 80px;
@@ -641,7 +641,7 @@
             .h2yformulario{
                 h2{
                     font-size: 20px;
-                    margin-left: 200px;
+                    margin-left: 100px;
                 }
                 .formulario{
                     padding-left: 100px;
@@ -1013,6 +1013,7 @@
                 .imagen-contacto-mobile{
                     display: flex;
                     width: 50%;
+                    margin-bottom: 100px;
                 }
             }
         }
@@ -1463,6 +1464,12 @@
                     }
                 }
             }
+        }
+    }
+
+    .seccion-contacto .contacto .contenedor-imagen-contacto {
+        .imagen-contacto-mobile{
+            margin-bottom: 60px;
         }
     }
 }

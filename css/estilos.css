@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*----------VARIABLES----------*/
 /*-En header y footer:-*/
 /*----------ARRAY----------*/
@@ -11,7 +12,7 @@
   align-items: center;
   justify-content: center; }
 
-.cuidados .riego, .cuidados .luz, .cuidados .temperatura {
+.plantas .visita, .cuidados .riego, .cuidados .luz, .cuidados .temperatura {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -114,7 +115,7 @@ header nav {
   font-size: 40px; }
 
 /*------INDEX------*/
-/*--Hero--*/
+/*--Sección Hero--*/
 .hero {
   width: 100%;
   height: 800px;
@@ -155,7 +156,7 @@ header nav {
       font-size: 20px;
       font-weight: 600; }
 
-/*--Reconectemos--*/
+/*--Sección Reconectemos--*/
 .reconectemos {
   width: 100%;
   height: 984px;
@@ -215,7 +216,7 @@ header nav {
           .reconectemos .contenido-reconectemos .texto-reconectemos .boton-contenedor a:active {
             color: #ECFCF0; }
 
-/*--Cuidado de las plantas - index--*/
+/*--Sección Cuidado de las plantas - index--*/
 .cuidado {
   width: 100%;
   height: 984px;
@@ -274,7 +275,7 @@ header nav {
           .cuidado .contenido-cuidado .texto-cuidado .boton-contenedor a:active {
             color: #ECFCF0; }
 
-/*------PLANTAS------*/
+/*------PÁGINA PLANTAS------*/
 .plantas {
   width: 100%;
   height: auto;
@@ -542,10 +543,7 @@ header nav {
     width: 100%;
     height: 91px;
     background-color: #FFDA57;
-    margin-top: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    margin-top: 160px; }
     .plantas .visita .contenido-visita {
       width: 760px;
       display: flex;
@@ -561,7 +559,7 @@ header nav {
         font-weight: 500;
         margin-bottom: 0px; }
 
-/*------CUIDADOS------*/
+/*------PÁGINA CUIDADOS------*/
 .cuidados {
   width: 100%;
   height: auto;
@@ -687,7 +685,7 @@ header nav {
     .cuidados .temperatura .imagen-temperatura-angosta {
       display: none; }
 
-/*------NOSOTROS------*/
+/*------PÁGINA NOSOTROS------*/
 .seccion-nosotros {
   font-family: 'Montserrat', sans-serif;
   display: flex;
@@ -775,7 +773,7 @@ header nav {
       .seccion-nosotros .nosotros .imagen-valores .imagen-valores-desktop {
         border-radius: 15px; }
 
-/*------CONTACTO------*/
+/*------PÁGINA CONTACTO------*/
 .seccion-contacto {
   width: 100%;
   height: auto;
@@ -800,7 +798,7 @@ header nav {
     .seccion-contacto .contacto .h2yformulario {
       grid-area: h2yformulario;
       margin-bottom: 50px;
-      width: 90%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center; }
@@ -809,10 +807,11 @@ header nav {
         text-align: left;
         font-size: 24px;
         font-weight: 500;
-        margin-left: 300px;
+        margin-left: 200px;
         margin-top: 100px; }
       .seccion-contacto .contacto .h2yformulario .formulario {
-        padding-left: 200px; }
+        padding-left: 200px;
+        width: 90%; }
         .seccion-contacto .contacto .h2yformulario .formulario .nombre {
           display: flex;
           flex-direction: column; }
@@ -932,6 +931,7 @@ header nav {
 
 /*----------FOOTER----------*/
 footer {
+  font-family: 'Montserrat', sans-serif;
   background-color: #384D1F;
   height: auto;
   display: grid;
@@ -944,7 +944,6 @@ footer {
     margin-bottom: 60px; }
     footer .contactanos h3 {
       color: #ECFCF0;
-      font-family: 'Montserrat', sans-serif;
       font-size: 24px;
       font-weight: 600;
       padding-top: 60px;
@@ -962,7 +961,6 @@ footer {
         height: 28px; }
       footer .contactanos .telefono p {
         color: #ECFCF0;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
     footer .contactanos .whatsapp {
@@ -977,7 +975,6 @@ footer {
         height: 26px; }
       footer .contactanos .whatsapp p {
         color: #ECFCF0;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
     footer .contactanos .correo {
@@ -992,14 +989,12 @@ footer {
         height: 24px; }
       footer .contactanos .correo p {
         color: #ECFCF0;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
   footer .local {
     grid-area: local; }
     footer .local h3 {
       color: #ECFCF0;
-      font-family: 'Montserrat', sans-serif;
       font-size: 24px;
       font-weight: 600;
       padding-top: 60px;
@@ -1017,14 +1012,12 @@ footer {
         height: 28px; }
       footer .local .ubicacion p {
         color: #ECFCF0;
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400; }
   footer .seguinos {
     grid-area: seguinos; }
     footer .seguinos h3 {
       color: #ECFCF0;
-      font-family: 'Montserrat', sans-serif;
       font-size: 24px;
       font-weight: 600;
       padding-top: 60px;
@@ -1156,7 +1149,7 @@ footer {
     width: 585px;
     height: 615px; }
   .seccion-contacto .contacto .h2yformulario h2 {
-    margin-left: 250px; }
+    margin-left: 150px; }
   .seccion-contacto .contacto .h2yformulario .formulario {
     padding-left: 150px; } }
 
@@ -1237,7 +1230,7 @@ footer {
   .plantas .plantas-cards .card-suculenta .cards-texto h2 {
     padding-top: 20px; }
   .seccion-contacto .contacto .h2yformulario h2 {
-    margin-left: 155px; }
+    margin-left: 80px; }
   .seccion-contacto .contacto .h2yformulario .formulario {
     padding-left: 80px; }
   .seccion-contacto .contacto .contenedor-imagen-contacto .imagen-contacto {
@@ -1375,7 +1368,7 @@ footer {
     font-size: 40px; }
   .seccion-contacto .contacto .h2yformulario h2 {
     font-size: 20px;
-    margin-left: 200px; }
+    margin-left: 100px; }
   .seccion-contacto .contacto .h2yformulario .formulario {
     padding-left: 100px; }
     .seccion-contacto .contacto .h2yformulario .formulario .nombre label {
@@ -1595,7 +1588,8 @@ footer {
         display: none; }
       .seccion-contacto .contacto .contenedor-imagen-contacto .imagen-contacto-mobile {
         display: flex;
-        width: 50%; } }
+        width: 50%;
+        margin-bottom: 100px; } }
 
 @media (max-width: 870px) {
   .reconectemos .contenido-reconectemos .imagen-reconectemos .imagen-monstera-peperomia {
@@ -1866,7 +1860,9 @@ footer {
         height: 450px; }
         .plantas .plantas-cards .card-suculenta .contenedor-imagen .foto-suculenta {
           width: 60%;
-          height: auto; } }
+          height: auto; }
+  .seccion-contacto .contacto .contenedor-imagen-contacto .imagen-contacto-mobile {
+    margin-bottom: 60px; } }
 
 @media (max-width: 576px) {
   .foto-carousel {

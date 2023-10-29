@@ -1,5 +1,6 @@
 /*----------FOOTER----------*/
 footer{
+    font-family: 'Montserrat', sans-serif;
     background-color: $color-primario;
     height: auto;
     display: grid;
@@ -13,7 +14,6 @@ footer{
         margin-bottom: 60px;
         h3{
             color: $color-secundario;
-            font-family: 'Montserrat', sans-serif;
             font-size: 24px;
             font-weight: 600;
             padding-top: 60px;
@@ -33,7 +33,6 @@ footer{
             }
             p{
                 color: $color-secundario;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
             }
@@ -51,7 +50,6 @@ footer{
             }
             p{
                 color: $color-secundario;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
             }
@@ -69,7 +67,6 @@ footer{
             }
             p{
                 color: $color-secundario;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
             }
@@ -79,7 +76,6 @@ footer{
         grid-area: local;
         h3{
             color: $color-secundario;
-            font-family: 'Montserrat', sans-serif;
             font-size: 24px;
             font-weight: 600;
             padding-top: 60px;
@@ -99,7 +95,6 @@ footer{
             }
             p{
                 color: $color-secundario;
-                font-family: 'Montserrat', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
             }
@@ -109,7 +104,6 @@ footer{
         grid-area: seguinos;
         h3{
             color: $color-secundario;
-            font-family: 'Montserrat', sans-serif;
             font-size: 24px;
             font-weight: 600;
             padding-top: 60px;
